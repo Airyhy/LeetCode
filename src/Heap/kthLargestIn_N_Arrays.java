@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
+//Find K-th largest element in N arrays.
+
 public class kthLargestIn_N_Arrays {
 
     public class Node{
@@ -51,5 +53,5 @@ public class kthLargestIn_N_Arrays {
         }
         return que.poll().val;
     }
-    1
+
 }

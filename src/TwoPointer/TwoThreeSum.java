@@ -60,33 +60,33 @@ public class TwoThreeSum{
 
 	  //Three Sum closet
 	  public int threeSumClosest(int[] num, int target) {
-	    	if(num == null || num.length==0){
-				return 0;
-			}
-	        //sort array
-			Arrays.sort(num);
-			int len = num.length;
-			int res = Integer.MAX_VALUE/2;
+		  if(num == null || num.length<3){
+			  return 0;
+		  }
+		  //sort array
+		  Arrays.sort(num);
+		  int len = num.length;
+		  int res = num[0] + num[1] + num[2];
 
 
-			for(int small=0; small<len-2; small++){
-				int mid = small + 1;
-				int large = len - 1;
-				while(mid < large){
-					
-					int sum = num[small] + num[mid] + num[large];
-					if(sum == target){
-						return target;
-					}else if(sum < target){
-						mid ++;
-					}else{
-						large --;
-					}
-					if(Math.abs(sum-target) < Math.abs(res-target)){
-						res = sum;
-					}
-				}
-			}
-			return res;
-		}
+		  for(int small=0; small<len-2; small++){
+			  int mid = small + 1;
+			  int large = len - 1;
+			  while(mid < large){
+
+				  int sum = num[small] + num[mid] + num[large];
+				  if(sum == target){
+					  return target;
+				  }else if(sum < target){
+					  mid ++;
+				  }else{
+					  large --;
+				  }
+				  if(Math.abs(sum-target) < Math.abs(res-target)){
+					  res = sum;
+				  }
+			  }
+		  }
+		  return res;
+	  }
 }
