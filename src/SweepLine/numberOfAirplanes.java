@@ -17,25 +17,8 @@ import java.util.*;
  */
 
 
-class point {
-    int time;
-    int isStart;
-
-    public point(int _time, int _isStart){
-        this.time = _time;
-        this.isStart = _isStart;
-    }
-
-    public static Comparator<point> PointComparator  = new Comparator<point>(){
-        public int compare(point p1, point p2){
-            if(p1.time == p2.time) return p1.isStart - p2.isStart;
-            else return p1.time - p2.time;
-        }
-    };
-
-}
-
 public class numberOfAirplanes {
+
 
 
     public class Interval
@@ -44,6 +27,16 @@ public class numberOfAirplanes {
         Interval( int start, int end){
         this.start = start;
         this.end = end;
+        }
+    }
+
+    class point {
+        int time;
+        int isStart;
+
+        public point(int _time, int _isStart){
+            this.time = _time;
+            this.isStart = _isStart;
         }
     }
 
@@ -59,7 +52,14 @@ public class numberOfAirplanes {
             list.add(new point(in.start,1));
             list.add(new point(in.end,0));
         }
-        Collections.sort(list,point.PointComparator);
+
+        Collections.sort(list, new Comparator<point>(){
+            @Override
+            public int compare(point p1, point p2){
+                if(p1.time == p2.time) return p1.isStart - p2.isStart;
+                else return p1.time - p2.time;
+            }
+        });
 
         for (point p : list){
             if(p.isStart==1){
@@ -71,6 +71,7 @@ public class numberOfAirplanes {
         }
         return max;
     }
+
 
     //method 2 hashmap
     public int countOfAirplanes2(List<Interval> airplanes) {

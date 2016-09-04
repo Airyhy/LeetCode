@@ -7,7 +7,7 @@ public class longestPalindrome {
      * Expand from center character and center of two chars
      * Update result according to the returned length
      */
-    public String longestPalindrome(String s) {
+    public String longestPalindromeSubstring(String s) {
         if (s == null || s.length() == 0) return "";
         String longest = s.substring(0, 1);
         int len = s.length();

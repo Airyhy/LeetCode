@@ -1,4 +1,8 @@
-package DP;
+package DP.DP_backpack;
+
+/**
+ * 给1,2,5,10硬币无数多个,请问凑80元的方案总数
+ */
 
 public class Backpack_coinTypes {
 

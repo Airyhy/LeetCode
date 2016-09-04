@@ -17,7 +17,7 @@ public class minimumSizeSubarraySum {
             return -1;
         }
 
-        //创造一个window,一边+,一边-.
+        //创造一个window,一边+,一边-.莤barray
 
         int j = 0, sum = 0, min = Integer.MAX_VALUE;
         for(int i=0; i<nums.length; i++){

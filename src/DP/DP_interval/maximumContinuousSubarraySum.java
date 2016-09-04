@@ -1,11 +1,22 @@
-package DP;
+package DP.DP_interval;
 
 
-//maximum continuous subarray
 
 import java.util.ArrayList;
 
+
+/**
+ *
+ Find the contiguous subarray within an array (containing at least one number) which has the largest sum.
+
+ For example, given the array [-2,1,-3,4,-1,2,1,-5,4],
+ the contiguous subarray [4,-1,2,1] has the largest sum = 6.
+
+ */
 public class maximumContinuousSubarraySum {
+
+
+    //maximum subarray
 
     public int maxSubArray(int[] nums) {
 
@@ -25,12 +36,13 @@ public class maximumContinuousSubarraySum {
         return sum;
     }
 
-//      Given an integer array, find a continuous subarray where the sum of numbers is the biggest.
-//      Your code should return the index of the first number and the index of the last number.
-//      (If their are duplicate answer, return anyone)
+    /**
+     *  Given an integer array, find a continuous subarray where the sum of numbers is the biggest.
+        Your code should return the index of the first number and the index of the last number.
+        (If their are duplicate answer, return anyone)
+     */
 
-
-
+    // continuous subarray sum
     //return the index of the subarray
     public ArrayList<Integer> continuousSubarraySum(int[] A) {
         // Write your code here
@@ -60,11 +72,14 @@ public class maximumContinuousSubarraySum {
         return result;
     }
 
-//   Given an circular integer array
-//   (the next element of the last element is the first element), find a continuous subarray in it,
-//   where the sum of numbers is the biggest.
-//   Your code should return the index of the first number and the index of the last number.
-//   If duplicate answers exist, return any of them.
+/**  Given an circular integer array
+   (the next element of the last element is the first element), find a continuous subarray in it,
+   where the sum of numbers is the biggest.
+   Your code should return the index of the first number and the index of the last number.
+   If duplicate answers exist, return any of them.
+*/
+
+    // continuous subarray sum - 2
 
     //the array can be counted as round
     // find the maximum subarray in the middle
@@ -80,6 +95,7 @@ public class maximumContinuousSubarraySum {
         int start = 0, end = 0;
         int local = 0;
         int global = -0x7fffffff;
+
         for (int i = 0; i < len; ++i) {
             total += A[i];
             if (local < 0) {
