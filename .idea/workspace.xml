@@ -2,52 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f21ed20a-734d-4ded-a813-6ea9b966665f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/MaximumProductofWordLengths.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_backpack/CombinationSum4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_game/CoinsinALine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_game/CoinsinALine2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_game/CoinsinALine3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_game/ScrambleString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_game/burstBalloons.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_game/stoneGame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_interval/MaximumProductSubarray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_interval/ProductofArrayExceptSelf.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_interval/maximumContinuousSubarraySum2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_interval/maximumContinuousSubarraySum3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_matrix/editDistance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_matrix/longestIncreasingContinuousSubsequence2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_matrix/maximalSquare.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_matrix/minimumPathSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_matrix/uniquePaths.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_matrix/uniquePaths2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_seuqence/LongestIncreasingContinuousSubsequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_seuqence/LongestIncreasingSubsequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_seuqence/climbStairs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_seuqence/houseRobber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_seuqence/houseRobber2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_seuqence/houseRobber3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedListCycle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LinkedList/LinkedListCycle2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LinkedList/MergeTwoSortedLists.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LinkedList/RemoveNthNodeFromEndofList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuickSort/partitionArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Set/LongestConsecutiveSequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TwoPointer/smallestDifferenceInTwoArray.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BackTracking/CombinationSum4.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DP/Backpack_closestAmount.java" afterPath="$PROJECT_DIR$/src/DP/DP_backpack/Backpack_closestAmount.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DP/Backpack_coinTypes.java" afterPath="$PROJECT_DIR$/src/DP/DP_backpack/Backpack_coinTypes.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DP/Backpack_valueWeight.java" afterPath="$PROJECT_DIR$/src/DP/DP_backpack/Backpack_valueWeight.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DP/KSum.java" afterPath="$PROJECT_DIR$/src/DP/DP_game/KSum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DP/MinAdjustmentCost.java" afterPath="$PROJECT_DIR$/src/DP/DP_game/MinAdjustmentCost.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DP/maximumContinuousSubarraySum.java" afterPath="$PROJECT_DIR$/src/DP/DP_interval/maximumContinuousSubarraySum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/LRUmissCount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/RoundRobinWaitTime.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/SubarraySumClosest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/subarraySum2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BFS/BinaryTreeLevelOrderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BFS/BinaryTreeLevelOrderTraversal2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BFS/BinaryTreeZigzagLevelOrderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BFS/MinimumHeightTrees.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BinarySearch/Search2DMatrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BitManipulation/dayChangeProblem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BitManipulation/grayCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DFS/ConstructBinaryTreefromInorderandPostorderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DFS/ConstructBinaryTreefromPreorderandInorderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DFS/ConvertSortedListtoBinarySearchTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_interval/ContinuousSubarraySum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_interval/ContinuousSubarraySum2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Heap/KClosestPointstoOrigin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Heap/ShortestJobFirst.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Iterator/BinarySearchTreeIterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Iterator/PeekingIterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LinkedList/InsertIntoCycleList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LinkedList/IntersectionofTwoLinkedLists.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Map/LRUCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Math/GreatestCommonDivisor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Math/OverlapRectangle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Math/RectangleArea.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Matrix/MaximumMinimumPath.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Matrix/findPathInMazeDFS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Matrix/rotateMatrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Palindrome/PalindromeLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Palindrome/validPalindrome.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/MaximumGap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Stack/ValidParentheses.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/String/LongestCommonPrefix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/AmplitudeofTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BinarySearchTreeMinPathSum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeInorderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreePaths.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreePostorderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreePreorderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/LowestCommonAncestorofaBinarySearchTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/LowestCommonAncestorofaBinaryTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/isSubtree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TwoPointer/ArithmeticSequence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TwoPointer/ShortestWordDistance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TwoPointer/ShortestWordDistance2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TwoPointer/ShortestWordDistance3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TwoPointer/findTheOptimalWeights.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LinkedListCycle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Subarray/subarraySum3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TreeLevelZigzagOrder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/commonAncestor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/validPalindrome.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Candy.java" afterPath="$PROJECT_DIR$/src/Array/Candy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DP/DP_interval/maximumContinuousSubarraySum.java" afterPath="$PROJECT_DIR$/src/DP/DP_interval/maximumSubarray.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DP/DP_interval/maximumContinuousSubarraySum2.java" afterPath="$PROJECT_DIR$/src/DP/DP_interval/maximumSubarray2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DP/DP_interval/maximumContinuousSubarraySum3.java" afterPath="$PROJECT_DIR$/src/DP/DP_interval/maximumSubarray3.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Heap/kthSmallestMatrix.java" afterPath="$PROJECT_DIR$/src/Heap/kthSmallestSortedMatrix.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Subarray/MinimumWindowSubstring.java" afterPath="$PROJECT_DIR$/src/String/MinimumWindowSubstring.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Subarray/longestSubstringWithoutRepeatingCharacters.java" afterPath="$PROJECT_DIR$/src/String/longestSubstringWithoutRepeatingCharacters.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Subarray/longestSubstringwithAtMostKDistinctCharacters.java" afterPath="$PROJECT_DIR$/src/String/longestSubstringwithAtMostKDistinctCharacters.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Subarray/minimumSizeSubarraySum.java" afterPath="$PROJECT_DIR$/src/TwoPointer/minimumSizeSubarraySum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Subarray/subarraySum.java" afterPath="$PROJECT_DIR$/src/Array/subarraySum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Subarray/submatrixSum.java" afterPath="$PROJECT_DIR$/src/Array/submatrixSum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/WordLadder.java" afterPath="$PROJECT_DIR$/src/BFS/WordLadder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sameTree.java" afterPath="$PROJECT_DIR$/src/Tree/SameOrSymmetricTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Palindrome/longestPalindrome.java" afterPath="$PROJECT_DIR$/src/Palindrome/longestPalindrome.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Subarray/minimumSizeSubarraySum.java" afterPath="$PROJECT_DIR$/src/Subarray/minimumSizeSubarraySum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SweepLine/numberOfAirplanes.java" afterPath="$PROJECT_DIR$/src/SweepLine/numberOfAirplanes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/DesignPattern.md" afterPath="$PROJECT_DIR$/concepts/DesignPattern.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BinarySearch/FindPeakElement.java" afterPath="$PROJECT_DIR$/src/BinarySearch/FindPeakElement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BinarySearch/FindPeakElement2.java" afterPath="$PROJECT_DIR$/src/BinarySearch/FindPeakElement2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DP/DP_game/MinAdjustmentCost.java" afterPath="$PROJECT_DIR$/src/DP/DP_game/MinAdjustmentCost.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock2.java" afterPath="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock3.java" afterPath="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock4.java" afterPath="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Heap/MedianfromDataStream.java" afterPath="$PROJECT_DIR$/src/Heap/MedianfromDataStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MatrxPath.java" afterPath="$PROJECT_DIR$/src/MatrxPath.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/wiggleSort.java" afterPath="$PROJECT_DIR$/src/Sort/wiggleSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/wiggleSort2.java" afterPath="$PROJECT_DIR$/src/Sort/wiggleSort2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Stack/minStack.java" afterPath="$PROJECT_DIR$/src/Stack/minStack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TreePathSum.java" afterPath="$PROJECT_DIR$/src/TreePathSum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Trie/AddandSearchWord.java" afterPath="$PROJECT_DIR$/src/Trie/AddandSearchWord.java" />
     </list>
     <ignored path="LeetCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,101 +104,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CoinsinALine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/DP_game/CoinsinALine.java">
+      <file leaf-file-name="RoundRobinWaitTime.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/RoundRobinWaitTime.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="25" />
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestCommonPrefix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/String/LongestCommonPrefix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stoneGame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/DP_game/stoneGame.java">
+      <file leaf-file-name="SlidingWindowMaximum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Deque/SlidingWindowMaximum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CombinationSum4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/DP_backpack/CombinationSum4.java">
+      <file leaf-file-name="validPalindrome.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Palindrome/validPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state vertical-scroll-proportion="-13.333333">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinAdjustmentCost.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/DP_game/MinAdjustmentCost.java">
+      <file leaf-file-name="MatrxPath.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MatrxPath.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="burstBalloons.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/DP_game/burstBalloons.java">
+      <file leaf-file-name="Candy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/Candy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Backpack_closestAmount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/DP_backpack/Backpack_closestAmount.java">
+      <file leaf-file-name="BinaryTreeMaximunPathSum2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreeMaximunPathSum2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="25" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Backpack_coinTypes.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DP/DP_backpack/Backpack_coinTypes.java">
+      <file leaf-file-name="LowestCommonAncestorofaBinarySearchTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tree/LowestCommonAncestorofaBinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5867347">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/DP_game/KSum.java">
+      <file leaf-file-name="LowestCommonAncestorofaBinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tree/LowestCommonAncestorofaBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editDistance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/DP_matrix/editDistance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Backpack_valueWeight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/DP_backpack/Backpack_valueWeight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.23076923">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -189,57 +217,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Heap/kthLargestIn_N_Arrays.java" />
-        <option value="$PROJECT_DIR$/src/Trie/implementTrie.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/RemoveNthNodeFromEndofList.java" />
-        <option value="$PROJECT_DIR$/src/SweepLine/numberOfAirplanes.java" />
-        <option value="$PROJECT_DIR$/src/TwoPointer/smallestDifferenceInTwoArray.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/MergeTwoSortedLists.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/LinkedListCycle2.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/dayChange.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/numOfArithmeticSlices.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/IntersectionofTwoLinkedLists.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/BinarySearchTreeMinPathSum.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/SameOrSymmetricTree.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/GreatestCommonDivisor.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/dayChangeProblem.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/ShortestJobFirst.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/SumofWindow.java" />
+        <option value="$PROJECT_DIR$/src/Tree/AmplitudeofTree.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/ArithmeticSequence.java" />
+        <option value="$PROJECT_DIR$/src/TwoPointer/ArithmeticSequence.java" />
+        <option value="$PROJECT_DIR$/src/Tree/BinarySearchTreeMinPathSum.java" />
+        <option value="$PROJECT_DIR$/src/BitManipulation/dayChangeProblem.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/finalScoreforStudents.java" />
+        <option value="$PROJECT_DIR$/src/Matrix/findPathInMazeDFS.java" />
+        <option value="$PROJECT_DIR$/src/TwoPointer/findTheOptimalWeights.java" />
+        <option value="$PROJECT_DIR$/src/BitManipulation/grayCode.java" />
+        <option value="$PROJECT_DIR$/src/Math/GreatestCommonDivisor.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/InsertIntoCycleList.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/InsertIntoCycleList.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/IntersectionofTwoLinkedLists.java" />
+        <option value="$PROJECT_DIR$/src/Tree/isSubtree.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/KClosestPointstoOrigin.java" />
+        <option value="$PROJECT_DIR$/src/Heap/KClosestPointstoOrigin.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/LinkedListCycle.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/LinkedListCycle2.java" />
-        <option value="$PROJECT_DIR$/src/QuickSort/partitionArray.java" />
-        <option value="$PROJECT_DIR$/src/BackTracking/CombinationSum4.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP-backpack/test.kt" />
-        <option value="$PROJECT_DIR$/src/DP/DP_backpack/CombinationSum4.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_oneDimension/houseRobber.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_oneDimension/houseRobber2.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_oneDimension/houseRobber3.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_seuqence/houseRobber3.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_seuqence/climbStairs.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_matrix/maximalSquare.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_matrix/minimumPathSum.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_matrix/uniquePaths.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_matrix/editDistance.java" />
-        <option value="$PROJECT_DIR$/src/Subarray/minimumSizeSubarraySum.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_interval/maximumContinuousSubarraySum.java" />
-        <option value="$PROJECT_DIR$/src/Array/MaximumProductofWordLengths.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_interval/MaximumProductSubarray.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_interval/maximumContinuousSubarray2.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_interval/maximumContinuousSubarraySum2.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_interval/maximumContinuousSubarraySum3.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock2.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock3.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_interval/ProductofArrayExceptSelf.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock4.java" />
-        <option value="$PROJECT_DIR$/src/Set/LongestConsecutiveSequence.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_matrix/uniquePaths2.java" />
         <option value="$PROJECT_DIR$/src/Palindrome/longestPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_seuqence/LongestIncreasingSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_seuqence/LongestIncreasingContinuousSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_matrix/longestIncreasingContinuousSubsequence2.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_game/CoinsinALine2.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_game/CoinsinALine.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_game/CoinsinALine3.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_game/stoneGame.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_game/burstBalloons.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_game/ScrambleString.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_backpack/Backpack_closestAmount.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_backpack/Backpack_valueWeight.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_backpack/Backpack_coinTypes.java" />
-        <option value="$PROJECT_DIR$/src/DP/KSum.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_game/KSum.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_game/MinAdjustmentCost.java" />
+        <option value="$PROJECT_DIR$/src/Array/LRUmissCount.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/MaxDifferenceBetweenFourNumbers.java" />
+        <option value="$PROJECT_DIR$/src/Matrix/MaximumMinimumPath.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/MergeTwoSortedLists.java" />
+        <option value="$PROJECT_DIR$/src/Math/OverlapRectangle.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/removeVowels.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/reverseSecondHalfofLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/rotateMatrix.java" />
+        <option value="$PROJECT_DIR$/src/Tree/SameOrSymmetricTree.java" />
+        <option value="$PROJECT_DIR$/src/BinarySearch/Search2DMatrix.java" />
+        <option value="$PROJECT_DIR$/src/AmazonTemp/ValidParentheses.java" />
+        <option value="$PROJECT_DIR$/src/Stack/ValidParentheses.java" />
+        <option value="$PROJECT_DIR$/src/Deque/SlidingWindowMaximum.java" />
+        <option value="$PROJECT_DIR$/src/Matrix/rotateMatrix.java" />
+        <option value="$PROJECT_DIR$/src/Heap/ShortestJobFirst.java" />
+        <option value="$PROJECT_DIR$/src/validPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/Palindrome/validPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/Candy.java" />
+        <option value="$PROJECT_DIR$/src/Array/Candy.java" />
+        <option value="$PROJECT_DIR$/src/Array/RoundRobinWaitTime.java" />
+        <option value="$PROJECT_DIR$/src/String/LongestCommonPrefix.java" />
+        <option value="$PROJECT_DIR$/src/commonAncestor.java" />
       </list>
     </option>
   </component>
@@ -250,10 +278,12 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="708" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -281,8 +311,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -419,7 +447,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Subarray" />
+              <option name="myItemId" value="String" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -545,6 +573,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Math" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Map" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -563,153 +609,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="LinkedList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Heap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DP_seuqence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DP_matrix" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DP_interval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DP_game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LeetCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DP_backpack" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -746,6 +646,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Deque" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LeetCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BitManipulation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -841,20 +759,53 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="coin&#9;PSI&#9;JAVA://DP.DP_backpack.Backpack_coinTypes&#10;pali&#9;PSI&#9;JAVA://Palindrome.longestPalindrome&#10;product&#9;PSI&#9;JAVA://Array.MaximumProductofWordLengths&#10;subarray&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/DP/maximumContinuousSubarraySum.java&#10;threesum&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/TwoPointer/TwoThreeSum.java&#10;closest&#9;PSI&#9;JAVA://TwoPointer.TwoThreeSum#threeSumClosest&#10;repea&#9;PSI&#9;JAVA://Map.FirstCharacter#firstNonRepeatingChar1&#10;stack&#9;PSI&#9;JAVA://Stack1.MyQueue.MinStack&#10;island&#9;PSI&#9;JAVA://DFS.NumberOfIslands&#10;maxi&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/maximumSubarray.java&#10;maximum&#9;PSI&#9;JAVA://maximumSubarray" />
+    <property name="SearchEverywhereHistoryKey" value="optimal&#9;PSI&#9;JAVA://AmazonTemp.findTheOptimalWeights&#10;maze&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/AmazonTemp/findPathInMazeDFS.java&#10;surround&#9;PSI&#9;JAVA://BFS.SurroundedRegions&#10;search&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/AmazonTemp/Search2DMatrix.java&#10;same&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/AmazonTemp/SameOrSymmetricTree.java&#10;subtr&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/AmazonTemp/isSubtree.java&#10;window&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/AmazonTemp/SlidingWindowMaximum.java&#10;rotat&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/AmazonTemp/rotateString.java&#10;pairs&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/AmazonTemp/TwoSumCountPairs.java&#10;rectang&#9;PSI&#9;JAVA://AmazonTemp.OverlapRectangle&#10;minpath&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/AmazonTemp/BinarySearchTreeMinPathSum.java&#10;merge&#9;PSI&#9;JAVA://LinkedList.MergeTwoSortedLists&#10;sliding&#9;PSI&#9;JAVA://Deque.SlidingWindowMaximum&#10;rotate&#9;PSI&#9;JAVA://minRotatedSortedArray&#10;min path&#9;PSI&#9;JAVA://DP.DP_matrix.minimumPathSum&#10;tree p&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/Tree/BinaryTreeMaximunPathSum2.java&#10;level&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/BFS/BinaryTreeLevelOrderTraversal2.java&#10;binary path&#9;PSI&#9;JAVA://Tree.BinaryTreeMaximunPathSum2&#10;findPathInMaze&#9;PSI&#9;JAVA://MatrxPath#findPathInMaze&#10;findPathInMazeDFS&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/AmazonTemp/findPathInMazeDFS.java&#10;longe&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/Palindrome/longestPalindrome.java&#10;number&#9;PSI&#9;JAVA://DFS.NumberOfIslands&#10;permut&#9;PSI&#9;JAVA://nextPermutation&#10;LCA&#9;PSI&#9;JAVA://Tree.LowestCommonAncestorofaBinarySearchTree.LCASearchTree&#10;cycle&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/LinkedList/LinkedListCycle2.java&#10;wordla&#9;PSI&#9;JAVA://WordLadder&#10;minimum&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/Array/minimumSizeSubarraySum.java&#10;wiggle&#9;PSI&#9;JAVA://Sort.wiggleSort&#10;kth&#9;PSI&#9;JAVA://Heap.kthSmallestMatrix&#10;peak&#9;PSI&#9;JAVA://BinarySearch.FindPeakElement2&#10;scramb&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/DP/DP_game/ScrambleString.java&#10;coin&#9;PSI&#9;JAVA://DP.DP_backpack.Backpack_coinTypes&#10;pali&#9;PSI&#9;JAVA://Palindrome.longestPalindrome&#10;product&#9;PSI&#9;JAVA://Array.MaximumProductofWordLengths&#10;subarray&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/DP/maximumContinuousSubarraySum.java&#10;threesum&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/TwoPointer/TwoThreeSum.java&#10;closest&#9;PSI&#9;JAVA://TwoPointer.TwoThreeSum#threeSumClosest&#10;repea&#9;PSI&#9;JAVA://Map.FirstCharacter#firstNonRepeatingChar1&#10;stack&#9;PSI&#9;JAVA://Stack1.MyQueue.MinStack&#10;island&#9;PSI&#9;JAVA://DFS.NumberOfIslands&#10;maxi&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/maximumSubarray.java&#10;maximum&#9;PSI&#9;JAVA://maximumSubarray" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Array" />
+      <recent name="Palindrome" />
+      <recent name="Heap" />
+      <recent name="heap" />
+      <recent name="Deque" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.RoundRobinWaitTime">
+    <configuration default="false" name="RoundRobinWaitTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Array.RoundRobinWaitTime" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LeetCode" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -1111,6 +1062,14 @@
       <listeners />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.RoundRobinWaitTime" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.RoundRobinWaitTime" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -1126,30 +1085,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="708" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1172,55 +1131,34 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TwoPointer/TwoThreeSum.java">
+    <entry file="file://$PROJECT_DIR$/src/BFS/BinaryTreeLevelOrderTraversal2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="e#654#669#0" expanded="true" />
+            <element signature="e#757#767#0" expanded="true" />
+            <element signature="e#918#927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreePathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.333334">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/QuickSort/NutsAndBolts.java">
+    <entry file="file://$PROJECT_DIR$/src/DP/DP_matrix/minimumPathSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-          <folding />
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/QuickSort/KthLargest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/QuickSort/partitionArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListCycle2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BackTracking/CombinationSum3.java">
+    <entry file="file://$PROJECT_DIR$/src/minRotatedSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -1228,26 +1166,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BackTracking/CombinationSum2.java">
+    <entry file="file://$PROJECT_DIR$/src/DFS/NumberOfIslands.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BackTracking/CombinationSum.java">
+    <entry file="file://$PROJECT_DIR$/src/BFS/MinimumHeightTrees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1248#1257#0" expanded="false" />
+            <element signature="e#1707#1716#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/MergeTwoSortedLists.java">
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/RemoveNthNodeFromEndofList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="11" selection-end-column="5" />
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1260,31 +1202,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Subarray/minimumSizeSubarraySum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Matrix/PrintDianalg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/MaximumProductofWordLengths.java">
+    <entry file="file://$PROJECT_DIR$/src/Heap/kthLargestIn_N_Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
@@ -1292,15 +1210,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_interval/ProductofArrayExceptSelf.java">
+    <entry file="file://$PROJECT_DIR$/src/Heap/kthSmallestSortedMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/Unique_BST.java">
+    <entry file="file://$PROJECT_DIR$/src/String/MinimumWindowSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
@@ -1308,133 +1226,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock2.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreePaths.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="39" />
+          <caret line="27" column="5" selection-start-line="20" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_interval/maximumContinuousSubarraySum3.java">
+    <entry file="file://$PROJECT_DIR$/src/BFS/SurroundedRegions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UnionFind/GraphValidTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Trie/AddandSearchWord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Set/LongestConsecutiveSequence.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/AmplitudeofTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_matrix/minimumPathSum.java">
+    <entry file="file://$PROJECT_DIR$/src/TwoPointer/ArithmeticSequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_matrix/uniquePaths2.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/BinarySearchTreeMinPathSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock3.java">
+    <entry file="file://$PROJECT_DIR$/src/BitManipulation/dayChangeProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="39" />
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_interval/maximumContinuousSubarraySum.java">
+    <entry file="file://$PROJECT_DIR$/src/Matrix/findPathInMazeDFS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoPointer/findTheOptimalWeights.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BitManipulation/grayCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Math/GreatestCommonDivisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/InsertIntoCycleList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/IntersectionofTwoLinkedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/isSubtree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Heap/KClosestPointstoOrigin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
-            <element signature="e#1221#1230#0" expanded="true" />
-            <element signature="e#2499#2508#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_interval/maximumContinuousSubarraySum2.java">
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListCycle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="42" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_interval/MaximumProductSubarray.java">
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/LinkedListCycle2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_matrix/maximalSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_matrix/uniquePaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="26" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_seuqence/climbStairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_seuqence/houseRobber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_seuqence/houseRobber2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_seuqence/houseRobber3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1442,146 +1367,263 @@
     <entry file="file://$PROJECT_DIR$/src/Palindrome/longestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_seuqence/LongestIncreasingSubsequence.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/LRUmissCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_seuqence/LongestIncreasingContinuousSubsequence.java">
+    <entry file="file://$PROJECT_DIR$/src/Matrix/MaximumMinimumPath.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="53" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_matrix/longestIncreasingContinuousSubsequence2.java">
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/MergeTwoSortedLists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock4.java">
+    <entry file="file://$PROJECT_DIR$/src/Math/RectangleArea.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="71" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_game/CoinsinALine2.java">
+    <entry file="file://$PROJECT_DIR$/src/Math/OverlapRectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_game/CoinsinALine3.java">
+    <entry file="file://$PROJECT_DIR$/src/Palindrome/PalindromeLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_game/ScrambleString.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/SameOrSymmetricTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
-          <folding />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_backpack/Backpack_closestAmount.java">
+    <entry file="file://$PROJECT_DIR$/src/BinarySearch/Search2DMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_backpack/Backpack_valueWeight.java">
+    <entry file="file://$PROJECT_DIR$/src/Stack/ValidParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_game/stoneGame.java">
+    <entry file="file://$PROJECT_DIR$/src/Matrix/rotateMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_game/burstBalloons.java">
+    <entry file="file://$PROJECT_DIR$/src/Heap/ShortestJobFirst.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Palindrome/validPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.333333">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_game/CoinsinALine.java">
+    <entry file="file://$PROJECT_DIR$/src/MatrxPath.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="25" />
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_matrix/editDistance.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/Candy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_game/KSum.java">
+    <entry file="file://$PROJECT_DIR$/src/Deque/SlidingWindowMaximum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_game/MinAdjustmentCost.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/RoundRobinWaitTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_backpack/CombinationSum4.java">
+    <entry file="file://$PROJECT_DIR$/src/String/LongestCommonPrefix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_backpack/Backpack_coinTypes.java">
+    <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreeMaximunPathSum2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5867347">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="25" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/LowestCommonAncestorofaBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/LowestCommonAncestorofaBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23076923">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LeetCode</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

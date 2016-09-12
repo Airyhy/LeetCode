@@ -3,7 +3,7 @@ package Stack;
 import java.util.Stack;
 
 /**
- * Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+ * Iterator a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 
  push(x) -- Push element x onto stack.
  pop() -- Removes the element on top of the stack.

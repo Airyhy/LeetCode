@@ -1,15 +1,15 @@
-# Design Pattern
+# Iterator Pattern
 
 Contents:
 
-- [Types of Design Patterns](#Types of Design Patterns)
+- [Types of Iterator Patterns](#Types of Iterator Patterns)
 - [Factory Pattern](#Factory Pattern)
 - [Singleton Pattern](#Singleton Pattern)
 - [MVC Pattern](#MVC Pattern)
 
-<a name="Types of Design Patterns" />
+<a name="Types of Iterator Patterns" />
 
-## Types of Design Patterns
+## Types of Iterator Patterns
 + Creational Patterns
   - hide creation logic
 + Structural Patterns

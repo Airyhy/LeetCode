@@ -12,7 +12,7 @@ import java.util.PriorityQueue;
 
  [2,3], the median is (2 + 3) / 2 = 2.5
 
- Design a data structure that supports the following two operations:
+ Iterator a data structure that supports the following two operations:
 
  void addNum(int num) - Add a integer number from the data stream to the data structure.
  double findMedian() - Return the median of all elements so far.

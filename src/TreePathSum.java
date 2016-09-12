@@ -1,9 +1,19 @@
 import java.util.*;
 
 public class TreePathSum{
-	
-//Given a binary tree and a sum, determine if the tree has a root-to-leaf path
-//such that adding up all the values along the path equals the given sum.
+
+	public class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) { val = x; }
+	}
+
+	/**
+	 *
+	 *     Given a binary tree and a sum, determine if the tree has a root-to-leaf path
+	  		such that adding up all the values along the path equals the given sum.
+	 */
 public boolean hasPathSum(TreeNode root, int sum){
 	if(root == null){
 		return false;
@@ -17,20 +27,12 @@ public boolean hasPathSum(TreeNode root, int sum){
 }
 
 
-	//	maxium path sum
-	//第一个是给一个二叉树 输出树里最大路径的和
-    public int maxDepth(TreeNode root) {
-        return  tranverse(root);
-    }
-    public int tranverse(TreeNode root){
-        if(root==null){
-            return 0;
-        }
-        return Math.max(tranverse(root.left),tranverse(root.right)) +root.val;
-    }
+	/**
+	 *
+	 //Given a binary tree and a sum, find all root-to-leaf paths
+	 //where each path's sum equals the given sum.
+	 */
 
-//Given a binary tree and a sum, find all root-to-leaf paths 
-//where each path's sum equals the given sum.
 
 	public List<List<Integer>> pathSum(TreeNode root, int sum) {
 		List<List<Integer>> result = new ArrayList<List<Integer>>();
@@ -38,13 +40,17 @@ public boolean hasPathSum(TreeNode root, int sum){
 		pathSumHelper(root, sum, result, path);
 		return result;
 	}
+
 	public void pathSumHelper(TreeNode root, int sum, List<List<Integer>> result, ArrayList<Integer> path){
 		if(root == null){
 			return;
 		}
-    //reach a leaf
+
+		//reach a leaf
+
 		if(root.left==null && root.right==null){
-    //find path sum
+
+			//find path sum
 			if(root.val == sum){
 				path.add(root.val);
 				result.add(new ArrayList<Integer>(path));
@@ -52,7 +58,8 @@ public boolean hasPathSum(TreeNode root, int sum){
 			}
 			return;
 		}
-    //branch on subtrees
+
+		//branch on subtrees
 		path.add(root.val);
 		pathSumHelper(root.left, sum-root.val, result, path);
 		pathSumHelper(root.right, sum-root.val, result, path);

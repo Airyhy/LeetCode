@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Design a data structure that supports the following two operations: addWord(word) and search(word)
+ * Iterator a data structure that supports the following two operations: addWord(word) and search(word)
 
  search(word) can search a literal word or a regular expression string containing only letters a-z or ..
 
