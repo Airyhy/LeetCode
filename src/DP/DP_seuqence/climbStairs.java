@@ -9,6 +9,12 @@ package DP.DP_seuqence;
  */
 public class climbStairs {
 
+
+    public int nthFibonacci (int n){
+        return 1;
+    }
+
+
     public int climbStairs(int n) {
         // write your code here
         if(n<=1) return 1;

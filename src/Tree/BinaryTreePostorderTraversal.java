@@ -28,7 +28,23 @@ public class BinaryTreePostorderTraversal {
         }
     }
 
+    /**
+     * Recursive
+     */
     public List<Integer> postorderTraversal(TreeNode root) {
+        List<Integer> result = new ArrayList<Integer>();
+        if(root==null) return result;
+        result.addAll(postorderTraversal(root.left));
+
+        result.addAll(postorderTraversal(root.right));
+        result.add(root.val);
+        return result;
+    }
+
+    /**
+     * Iterate
+     */
+    public List<Integer> postorderTraversal2(TreeNode root) {
         List<Integer> result = new ArrayList<Integer>();
         if(root==null) return result;
         Stack<TreeNode> st = new Stack<TreeNode>();

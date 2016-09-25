@@ -23,83 +23,87 @@ import java.util.*;
 * Tags: Array, Backtracking, BFS, String
 */
 class WordLadder2 {
-	public static void main(String[] args) {
-		String start = "hit";
-		String end = "cog";
-		String[] arr = {"hot","dot","dog","lot","log"};
-		Set<String> dict = new HashSet<String>(Arrays.asList(arr));
-		System.out.println(new WordLadder2().findLadders(start, end, dict).toString());
+
+	public List<List<String>> findLadders(String start, String end, Set<String> dict) {
+		List<List<String>> res = new ArrayList<List<String>>();
+		HashMap<String, ArrayList<String>> nodeNeighbors = new HashMap<String, ArrayList<String>>();// Neighbors for every node
+		HashMap<String, Integer> distance = new HashMap<String, Integer>();// Distance of every node from the start node
+		ArrayList<String> solution = new ArrayList<String>();
+
+		dict.add(end);
+		bfs(start, end, dict, nodeNeighbors, distance);
+		dfs(start, end, dict, nodeNeighbors, distance, solution, res);
+		return res;
 	}
-/**
-* BFS then DFS
-*/
-public List<List<String>> findLadders(String start, String end, Set<String> dict) {
-	List<List<String>> res = new ArrayList<List<String>>();
-	Map<String, List<String>> map = new HashMap<String, List<String>>();
-	Map<String, Integer> dist = new HashMap<String, Integer>();
-	bfs(map, dist, start, end, dict);
-	dfs(res, new LinkedList<String>(), end, start, dist, map);
-	return res;
-}
-/**
-* Create a queue, add start to it and put start in dist map
-* Initialize map with lists
-*/
-void bfs(Map<String, List<String>> map, Map<String, Integer> dist,
-	String start, String end, Set<String> dict) {
-	Queue<String> q = new LinkedList<String>();
-	q.offer(start);
-    dict.add(start); // make sure start and end in dictionary
-    dict.add(end);
-    dist.put(start, 0);
-    for (String s : dict) map.put(s, new ArrayList<String>());
-    	while (!q.isEmpty()) {
-    		String word = q.poll();
-          List<String> expansion = expand(word, dict); // generate all words
-          for (String next : expansion) {
-          	map.get(next).add(word);
-if (!dist.containsKey(next)) { // not in dist map yet
-	dist.put(next, dist.get(word) + 1);
-	q.offer(next);
-}
-}
-}
-}
-/**
-* Generate a list of words the word
-* Skip if it's the same character
-* If word is in dictionary, add to expansion list
-*/
-List<String> expand(String word, Set<String> dict) {
-	List<String> res = new ArrayList<String>();
-	for (int i = 0; i < word.length(); i++) {
-		for (char ch = 'a'; ch <= 'z'; ch++) {
-			char[] chs = word.toCharArray();
-			if (ch != chs[i]) {
-				chs[i] = ch;
-				String next = new String(chs);
-				if (dict.contains(next)) res.add(next);
+
+	// BFS: Trace every node's distance from the start node (level by level).
+	private void bfs(String start, String end, Set<String> dict, HashMap<String, ArrayList<String>> nodeNeighbors, HashMap<String, Integer> distance) {
+		for (String str : dict)
+			nodeNeighbors.put(str, new ArrayList<String>());
+
+		Queue<String> queue = new LinkedList<String>();
+		queue.offer(start);
+		distance.put(start, 0);
+
+		while (!queue.isEmpty()) {
+			int count = queue.size();
+			boolean foundEnd = false;
+			for (int i = 0; i < count; i++) {
+				String cur = queue.poll();
+				int curDistance = distance.get(cur);
+				ArrayList<String> neighbors = getNeighbors(cur, dict);
+
+				for (String neighbor : neighbors) {
+					nodeNeighbors.get(cur).add(neighbor);
+					if (!distance.containsKey(neighbor)) {// Check if visited
+						distance.put(neighbor, curDistance + 1);
+						if (end.equals(neighbor))// Found the shortest path
+							foundEnd = true;
+						else
+							queue.offer(neighbor);
+					}
+				}
 			}
+
+			if (foundEnd)
+				break;
 		}
 	}
-	return res;
-}
-/**
-* Add current word to first position
-* Add path to result if word is start
-*/
-void dfs(List<List<String>> res, List<String> path, String word, String start, Map<String, Integer> dist, Map<String, List<String>> map) {
-	if (word.equals(start)) {
-		path.add(0, word);
-		res.add(new ArrayList<String>(path));
-		path.remove(0);
-return; // note to return
-}
-for (String next : map.get(word)) {
-if (dist.containsKey(next) && dist.get(word) == dist.get(next) + 1) { // backward, so word = next + 1
-path.add(0, word); // add current word
-dfs(res, path, next, start, dist, map); // dfs next word
-path.remove(0);
-}
-}
+
+	// Find all next level nodes.
+	private ArrayList<String> getNeighbors(String node, Set<String> dict) {
+		ArrayList<String> res = new ArrayList<String>();
+		char chs[] = node.toCharArray();
+
+		for (char ch ='a'; ch <= 'z'; ch++) {
+			for (int i = 0; i < chs.length; i++) {
+				if (chs[i] == ch) continue;
+				char old_ch = chs[i];
+				chs[i] = ch;
+				if (dict.contains(String.valueOf(chs))) {
+					res.add(String.valueOf(chs));
+				}
+				chs[i] = old_ch;
+			}
+
+		}
+		return res;
+	}
+
+	// DFS: output all paths with the shortest distance.
+	private void dfs(String cur, String end, Set<String> dict, HashMap<String, ArrayList<String>> nodeNeighbors, HashMap<String, Integer> distance, ArrayList<String> solution, List<List<String>> res) {
+		solution.add(cur);
+		if (end.equals(cur)) {
+			res.add(new ArrayList<String>(solution));
+		}
+		else {
+			for (String next : nodeNeighbors.get(cur)) {
+				if (distance.get(next) == distance.get(cur) + 1) {
+					dfs(next, end, dict, nodeNeighbors, distance, solution, res);
+				}
+			}
+		}
+		solution.remove(solution.size() - 1);
+	}
+
 }

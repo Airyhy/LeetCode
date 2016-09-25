@@ -29,6 +29,9 @@ public class BinaryTreePreorderTraversal {
         }
     }
 
+    /**
+     * Recursive
+     */
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<Integer>();
         if(root==null) return result;
@@ -38,6 +41,9 @@ public class BinaryTreePreorderTraversal {
         return result;
     }
 
+    /**
+     * Iterate
+     */
     public List<Integer> preorderTraversal2(TreeNode root) {
         List<Integer> result = new ArrayList<Integer>();
         if(root==null) return result;

@@ -29,6 +29,7 @@ public class LargestRectangleinHistogram {
 
         for(int i=0;i<=height.length;i++){
             int cur;
+
             if(i==height.length){
                 cur = -1;
             }else{
