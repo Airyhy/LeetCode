@@ -2,105 +2,143 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f21ed20a-734d-4ded-a813-6ea9b966665f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/RemoveDuplicatesfromSortedArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackTracking/PalindromePartitioning.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackTracking/PalindromePartitioning2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackTracking/Permutations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackTracking/Permutations2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackTracking/Subsets2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BinarySearch/FindMinimuminRotatedSortedArray2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BinarySearch/SearchinRotatedSortedArray2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Iterator/ZigzagIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LinkedList/RemoveDuplicatesfromSortedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LinkedList/RemoveDuplicatesfromSortedList2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/PopulatingNextRightPointersinEachNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/BinaryTreeVerticalOrderTraversal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/FindtheCelebrity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/FlattenNestedListIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/HIndex.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/IncreasingTripletSubsequence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/MaximalRectangle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/MaximumSizeSubarraySumEqualsK.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/MergeSortedArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/PopulatingNextRightPointersinEachNode2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/Pow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/ProductExceptSelf.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/RemoveDuplicatesfromSortedArray2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/ReverseNodesinKGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/SearchinRotatedSortedArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/SimplifyPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/Sqrt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/TheSkylineProblem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/WallsAndGates.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VGoogleTemp/Google1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VGoogleTemp/LongestAbsoluteFilePath.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Pow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ProductExceptSelf.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/emailList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mergeSort/MergeSortedArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/regExpMatching.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/BFS/BinaryTreeLevelOrderTraversal.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/BinaryTreeLevelOrderTraversal.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/BFS/WordLadder.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/WordLadder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DP/DP_matrix/maximalSquare.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/maximalSquare.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/AddBinary.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/AddBinary.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/AddandSearchWord.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/AddandSearchWord.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/BestTimetoBuyandSellStock.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/BestTimetoBuyandSellStock.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/BinarySearchTreeIterator.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/BinarySearchTreeIterator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/BinaryTreePaths.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/BinaryTreePaths.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/CloneGraph.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/CloneGraph.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/CountandSay.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/CountandSay.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/DecodeWays.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/DecodeWays.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/ExpressionAddOperators.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/ExpressionAddOperators.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/FirstBadVersion.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/FirstBadVersion.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/InorderSuccessorinBinarySearchTree.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/InorderSuccessorinBinarySearchTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/IntegertoEnglishWords.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/IntegertoEnglishWords.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/LRUCache.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/LRUCache.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/LetterCombinationsofaPhoneNumber.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/LetterCombinationsofaPhoneNumber.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/LowestCommonAncestorofaBinaryTree.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/LowestCommonAncestorofaBinaryTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/MeetingRooms2.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/MeetingRooms2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/MergeKSortedLists.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/MergeKSortedLists.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/MinimumWindowSubstring.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/MinimumWindowSubstring.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/MoveZeroes.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/MoveZeroes.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/MultiplyStrings.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/MultiplyStrings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/NumberOfIslands.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/NumberOfIslands.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/OneEditDistance.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/OneEditDistance.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/ReadNCharactersGivenRead4.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/ReadNCharactersGivenRead4.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/ReadNCharactersGivenRead42.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/ReadNCharactersGivenRead42.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/RegularExpressionMatching.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/RegularExpressionMatching.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/RemoveInvalidParentheses.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/RemoveInvalidParentheses.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/ReverseLinkedList.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/ReverseLinkedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/RomanToInteger.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/RomanToInteger.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/SerializeandDeserializeBinaryTree.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/SerializeandDeserializeBinaryTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/SparseMatrixMultiplication.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/SparseMatrixMultiplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/Subsets.java" afterPath="$PROJECT_DIR$/src/BackTracking/Subsets.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/TwoThreeSum.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/TwoThreeSum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/ValidateBinarySearchTree.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/ValidateBinarySearchTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/WildcardMatching.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/WildcardMatching.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/groupAnagrams.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/groupAnagrams.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/mergeInterval.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/mergeInterval.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/sortColor.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/sortColor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/strstr.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/strstr.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/validPalindrome.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/validPalindrome.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/wordBreak.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/wordBreak.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FacebookTemp/wordSearch.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/wordSearch.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Matrix/rotateMatrix.java" afterPath="$PROJECT_DIR$/src/Matrix/RotateImage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Palindrome/PalindromeLinkedList.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/PalindromeLinkedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/QuickSort/KthLargest.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/KthLargestElementinanArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Set/LongestConsecutiveSequence.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/LongestConsecutiveSequence.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Stack/ValidParentheses.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/ValidParentheses.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SweepLine/MeetingRoom.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/MeetingRoom.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Trie/implementTrie.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/implementTrie.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TwoPointer/minimumSizeSubarraySum.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/minimumSizeSubarraySum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/minRotatedSortedArray.java" afterPath="$PROJECT_DIR$/src/BinarySearch/FindMinimuminRotatedSortedArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/ExclusiveOfTwoArrays.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/MedianofTwoSortedArrays.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Array/NumberAndLength.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BackTracking/GenerateParentheses.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/DP_interval/longestCommonSubsequence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Design/DesignTwitter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Design/Elevator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Greedy/JumpGame2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Heap/RearrangeStringkDistanceApart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Math/PascalTriangle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Math/PascalTriangle2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Set/LongestPalindrome.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Stack/BasicCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/String/ShortestPalindrome.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tree/TreePathSum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/ASingleValidBinarySearchTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/AlienDictionary.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/ConvertDoublyLinkedListtoBinarySearchTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/CourseSchedule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/CourseSchedule2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/ExcelSheetColumnTitle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/FlattenBinaryTreetoLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/GraphValidTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/InsertDeleteGetRandomO1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/KthSmallestElementinaBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/LongestValidParentheses.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/LowestCommonAncestorOfDeepestLeaves.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/PaintHouse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/PaintHouse2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/RandomPickIndex.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/SplitArrayMinimizeLargestSum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/SumofLeftLeaves.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/SurviveThief.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/TextJustification.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/ThreadTaskTimeCount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VFacebookTemp/hIndex2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VGoogleTemp/BinaryTreeLongestConsecutiveSequence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VGoogleTemp/BombEnemy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VGoogleTemp/CountofSmallerNumbersAfterSelf.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VGoogleTemp/DecodeString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VGoogleTemp/EncodeandDecodeStrings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VGoogleTemp/EvaluateDivision.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VGoogleTemp/PerfectSquares.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VGoogleTemp/SpiralMatrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/VGoogleTemp/UniqueWordAbbreviation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helper/ListNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/helper/TreeNode.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BrokenCode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DP/DP_interval/ProductofArrayExceptSelf.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/IntersectionAndExclusiveOfList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MatrxPath.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/NumToString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/NumberAndLength.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/RandomInStream.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/TreePathSum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/UnionFind/GraphValidTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/VFacebookTemp/strstr.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/VmwareTemp/mergeString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/countWords.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/detectDuplicateInArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/findPathInTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/highestBitInByte.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/minMaxInArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sameDirectory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/searchIncreasingDecreasingArray.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Array/MaximumProductofWordLengths.java" afterPath="$PROJECT_DIR$/src/BitManipulation/MaximumProductofWordLengths.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock2.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/BestTimetoBuyandSellStock2.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock3.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/BestTimetoBuyandSellStock3.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DP/DP_interval/BestTimetoBuyandSellStock4.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/BestTimetoBuyandSellStock4.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DivideTwoIntegers.java" afterPath="$PROJECT_DIR$/src/Math/DivideTwoIntegers.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Heap/kthLargestIn_N_Arrays.java" afterPath="$PROJECT_DIR$/src/Heap/kthLargestInNArrays.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Heap/kthSmallestSum_2_Arrays.java" afterPath="$PROJECT_DIR$/src/Heap/kthSmallestSum2Arrays.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Matrix/MaximumMinimumPath.java" afterPath="$PROJECT_DIR$/src/Matrix/MaxMinPathinMatrix.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Palindrome/longestPalindrome.java" afterPath="$PROJECT_DIR$/src/Palindrome/LongestPalindromicSubstring.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/String/longestSubstringwithAtMostKDistinctCharacters.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/longestSubstringwithAtMostKDistinctCharacters.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Tree/BinaryTreeInorderTraversal.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/BinaryTreeInorderTraversal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/TriangleMinPath.java" afterPath="$PROJECT_DIR$/src/DP/DP_seuqence/TriangleMinPath.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/VFacebookTemp/TwoThreeSum.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/_23Sum.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BackTracking/CombinationSum.java" afterPath="$PROJECT_DIR$/src/BackTracking/CombinationSum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BackTracking/CombinationSum2.java" afterPath="$PROJECT_DIR$/src/BackTracking/CombinationSum2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BackTracking/CombinationSum3.java" afterPath="$PROJECT_DIR$/src/BackTracking/CombinationSum3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DP/DP_interval/maximumSubarray.java" afterPath="$PROJECT_DIR$/src/DP/DP_interval/maximumSubarray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DP/Unique_BST.java" afterPath="$PROJECT_DIR$/src/DP/Unique_BST.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Math/IntegerToRoman.java" afterPath="$PROJECT_DIR$/src/Math/IntegerToRoman.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Stack/LargestRectangleinHistogram.java" afterPath="$PROJECT_DIR$/src/Stack/LargestRectangleinHistogram.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WordLadder2.java" afterPath="$PROJECT_DIR$/src/WordLadder2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts/DataStructure.md" afterPath="$PROJECT_DIR$/concepts/DataStructure.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Array/NextPermutation.java" afterPath="$PROJECT_DIR$/src/Array/NextPermutation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Array/subarraySum.java" afterPath="$PROJECT_DIR$/src/Array/subarraySum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BackTracking/Subsets.java" afterPath="$PROJECT_DIR$/src/BackTracking/Subsets.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BinarySearch/FindPeakElement.java" afterPath="$PROJECT_DIR$/src/BinarySearch/FindPeakElement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DFS/ConvertSortedListtoBinarySearchTree.java" afterPath="$PROJECT_DIR$/src/DFS/ConvertSortedListtoBinarySearchTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DP/DP_backpack/CombinationSum4.java" afterPath="$PROJECT_DIR$/src/DP/DP_backpack/CombinationSum4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DP/DP_matrix/uniquePaths.java" afterPath="$PROJECT_DIR$/src/DP/DP_matrix/uniquePaths.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DP/DP_seuqence/climbStairs.java" afterPath="$PROJECT_DIR$/src/DP/DP_seuqence/climbStairs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DP/DP_seuqence/houseRobber.java" afterPath="$PROJECT_DIR$/src/DP/DP_seuqence/houseRobber.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Heap/KClosestPointstoOrigin.java" afterPath="$PROJECT_DIR$/src/Heap/KClosestPointstoOrigin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Heap/MedianfromDataStream.java" afterPath="$PROJECT_DIR$/src/Heap/MedianfromDataStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Matrix/PrintDianalg.java" afterPath="$PROJECT_DIR$/src/Matrix/PrintDianalg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Matrix/validSudoku.java" afterPath="$PROJECT_DIR$/src/Matrix/validSudoku.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/wiggleSort.java" afterPath="$PROJECT_DIR$/src/Sort/wiggleSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SweepLine/insertInterval.java" afterPath="$PROJECT_DIR$/src/SweepLine/insertInterval.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tree/BinarySearchTreeMinPathSum.java" afterPath="$PROJECT_DIR$/src/Tree/BinarySearchTreeMinPathSum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tree/BinaryTreePreorderTraversal.java" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreePreorderTraversal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tree/LowestCommonAncestorofaBinarySearchTree.java" afterPath="$PROJECT_DIR$/src/Tree/LowestCommonAncestorofaBinarySearchTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tree/PopulatingNextRightPointersinEachNode.java" afterPath="$PROJECT_DIR$/src/Tree/PopulatingNextRightPointersinEachNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tree/isSubtree.java" afterPath="$PROJECT_DIR$/src/Tree/isSubtree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Trie/wordSearch2.java" afterPath="$PROJECT_DIR$/src/Trie/wordSearch2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/AddBinary.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/AddBinary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/BinarySearchTreeIterator.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/BinarySearchTreeIterator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/BinaryTreePaths.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/BinaryTreePaths.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/BinaryTreeVerticalOrderTraversal.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/BinaryTreeVerticalOrderTraversal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/DecodeWays.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/DecodeWays.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/ExpressionAddOperators.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/ExpressionAddOperators.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/FindtheCelebrity.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/FindtheCelebrity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/FirstBadVersion.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/FirstBadVersion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/FlattenNestedListIterator.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/FlattenNestedListIterator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/HIndex.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/HIndex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/IncreasingTripletSubsequence.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/IncreasingTripletSubsequence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/InorderSuccessorinBinarySearchTree.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/InorderSuccessorinBinarySearchTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/IntegertoEnglishWords.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/IntegertoEnglishWords.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/KthLargestElementinanArray.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/KthLargestElementinanArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/LetterCombinationsofaPhoneNumber.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/LetterCombinationsofaPhoneNumber.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/LongestConsecutiveSequence.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/LongestConsecutiveSequence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/MergeSortedArray.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/MergeSortedArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/MinimumWindowSubstring.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/MinimumWindowSubstring.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/NumberOfIslands.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/NumberOfIslands.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/OneEditDistance.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/OneEditDistance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/Pow.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/Pow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/RegularExpressionMatching.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/RegularExpressionMatching.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/RemoveInvalidParentheses.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/RemoveInvalidParentheses.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/ReverseLinkedList.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/ReverseLinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/RomanToInteger.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/RomanToInteger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/SerializeandDeserializeBinaryTree.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/SerializeandDeserializeBinaryTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/SparseMatrixMultiplication.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/SparseMatrixMultiplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/Sqrt.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/Sqrt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/ValidParentheses.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/ValidParentheses.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/ValidateBinarySearchTree.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/ValidateBinarySearchTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/WordLadder.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/WordLadder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/groupAnagrams.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/groupAnagrams.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/mergeInterval.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/mergeInterval.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/minimumSizeSubarraySum.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/minimumSizeSubarraySum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/sortColor.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/sortColor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VFacebookTemp/wordBreak.java" afterPath="$PROJECT_DIR$/src/VFacebookTemp/wordBreak.java" />
     </list>
     <ignored path="LeetCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -121,107 +159,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PalindromePartitioning.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BackTracking/PalindromePartitioning.java">
+      <file leaf-file-name="MaximumSizeSubarraySumEqualsK.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/MaximumSizeSubarraySumEqualsK.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PalindromePartitioning2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BackTracking/PalindromePartitioning2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.3803419">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Permutations.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BackTracking/Permutations.java">
+      <file leaf-file-name="MergeKSortedLists.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/MergeKSortedLists.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+              <caret line="96" column="28" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CombinationSum3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BackTracking/CombinationSum3.java">
+      <file leaf-file-name="wordBreak.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/wordBreak.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="e#532#547#0" expanded="true" />
-                <element signature="e#659#668#0" expanded="true" />
-                <element signature="e#1162#1171#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CombinationSum4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/DP_backpack/CombinationSum4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Backpack_valueWeight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/DP_backpack/Backpack_valueWeight.java">
+      <file leaf-file-name="BestTimetoBuyandSellStock2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/BestTimetoBuyandSellStock2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sameDirectory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sameDirectory.java">
+      <file leaf-file-name="BestTimeTiBuyAndSellStockFollowUp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/BestTimeTiBuyAndSellStockFollowUp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Backpack_closestAmount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DP/DP_backpack/Backpack_closestAmount.java">
+      <file leaf-file-name="ValidateBinarySearchTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/ValidateBinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Backpack_coinTypes.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DP/DP_backpack/Backpack_coinTypes.java">
+      <file leaf-file-name="minimumSizeSubarraySum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/minimumSizeSubarraySum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1278409">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Permutations2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BackTracking/Permutations2.java">
+      <file leaf-file-name="MinimumWindowSubstring.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/MinimumWindowSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegularExpressionMatching.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/RegularExpressionMatching.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WildcardMatching.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/WildcardMatching.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -248,57 +280,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BinarySearch/FindMinimuminRotatedSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/SearchinRotatedSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/Trie/implementTrie.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTempp/implementTrie.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch/SearchinRotatedSortedArray2.java" />
-        <option value="$PROJECT_DIR$/src/MergeSort/MergeSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/BFS/BinaryTreeLevelOrderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/QuickSort/KthLargest.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/Sqrt.java" />
-        <option value="$PROJECT_DIR$/src/Pow.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/Pow.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/implementTrie.java" />
-        <option value="$PROJECT_DIR$/src/QuickSort/KthLargestElementinanArray.java" />
-        <option value="$PROJECT_DIR$/src/FacebbokTemp/KthLargestElementinanArray.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/KthLargestElementinanArray.java" />
-        <option value="$PROJECT_DIR$/src/SweepLine/MeetingRoom.java" />
-        <option value="$PROJECT_DIR$/src/DP/DP_matrix/maximalSquare.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/maximalSquare.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/FlattenNestedListIterator.java" />
-        <option value="$PROJECT_DIR$/src/Iterator/ZigzagIterator.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/BinaryTreeVerticalOrderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/IncreasingTripletSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/HIndex.java" />
+        <option value="$PROJECT_DIR$/src/Trie/wordSearch2.java" />
+        <option value="$PROJECT_DIR$/src/Sort/wiggleSort.java" />
+        <option value="$PROJECT_DIR$/src/DFS/WordBreak2.java" />
+        <option value="$PROJECT_DIR$/src/VGoogleTemp/SpiralMatrix.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/CopyListwithRandomPointer.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/Pow.java" />
+        <option value="$PROJECT_DIR$/src/Array/MaximumProductofWordLengths.java" />
+        <option value="$PROJECT_DIR$/src/BitManipulation/MaximumProductofWordLengths.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/LetterCombinationsofaPhoneNumber.java" />
+        <option value="$PROJECT_DIR$/src/VGoogleTemp/CountofSmallerNumbersAfterSelf.java" />
+        <option value="$PROJECT_DIR$/src/VGoogleTemp/DecodeString.java" />
+        <option value="$PROJECT_DIR$/src/VGoogleTemp/EvaluateDivision.java" />
+        <option value="$PROJECT_DIR$/src/Array/MedianofTwoSortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/Tree/isSubtree.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/PaintHouse2.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/InsertDeleteGetRandomO1.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/SplitArrayMinimizeLargestSum.java" />
         <option value="$PROJECT_DIR$/src/Stack/LargestRectangleinHistogram.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/MaximalRectangle.java" />
-        <option value="$PROJECT_DIR$/src/Palindrome/PalindromeLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/ReverseNodesinKGroup.java" />
-        <option value="$PROJECT_DIR$/src/Tree/PopulatingNextRightPointersinEachNode.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/PopulatingNextRightPointersinEachNode2.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/RemoveDuplicatesfromSortedList.java" />
-        <option value="$PROJECT_DIR$/src/LinkedList/RemoveDuplicatesfromSortedList2.java" />
-        <option value="$PROJECT_DIR$/src/Array/RemoveDuplicatesfromSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/RemoveDuplicatesfromSortedArray2.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/WallsandGates.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/WallsAndGates.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/Subsets2.java" />
-        <option value="$PROJECT_DIR$/src/FacebookTemp/Subsets.java" />
-        <option value="$PROJECT_DIR$/src/BackTracking/Permutations2.java" />
-        <option value="$PROJECT_DIR$/src/BackTracking/Permutations.java" />
-        <option value="$PROJECT_DIR$/src/BackTracking/CombinationSum.java" />
-        <option value="$PROJECT_DIR$/src/DP/Unique_BST.java" />
-        <option value="$PROJECT_DIR$/src/VGoogleTemp/Google1.java" />
-        <option value="$PROJECT_DIR$/src/VGoogleTemp/Google2.java" />
-        <option value="$PROJECT_DIR$/src/VGoogleTemp/LongestAbsoluteFilePath.java" />
-        <option value="$PROJECT_DIR$/src/VFacebookTemp/Subsets.java" />
-        <option value="$PROJECT_DIR$/src/VFacebookTemp/Subsets2.java" />
-        <option value="$PROJECT_DIR$/src/BackTracking/CombinationSum2.java" />
-        <option value="$PROJECT_DIR$/src/BackTracking/CombinationSum3.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/PopulatingNextRightPointersinEachNode2.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/IncreasingTripletSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/DP/DP_backpack/CombinationSum4.java" />
+        <option value="$PROJECT_DIR$/src/Tree/LowestCommonAncestorofaBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/Sqrt.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/LongestConsecutiveSequence.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/WordLadder.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/SubsetProduct.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/primeProducts.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/RomanToInteger.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/SparseMatrixMultiplication.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/MeetingRoom.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/BinaryTreeVerticalOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/BackTracking/Subsets.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/BinaryTreePaths.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/BestTimetoBuyandSellStock2.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/BestTimetoBuyandSellStock3.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/BestTimetoBuyandSellStock4.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/BestTimeTiBuyAndSellStockFollowUp.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/wordBreak.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/minimumSizeSubarraySum.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/FirstBadVersion.java" />
+        <option value="$PROJECT_DIR$/src/Array/NextPermutation.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/ThreadTaskTimeCount.java" />
+        <option value="$PROJECT_DIR$/FacebookCode/TaskSchedule.java" />
+        <option value="$PROJECT_DIR$/src/Array/subarraySum2.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/MinimumDepthofBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/SumofLeftLeaves.java" />
         <option value="$PROJECT_DIR$/src/VFacebookTemp/validPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/BackTracking/PalindromePartitioning.java" />
-        <option value="$PROJECT_DIR$/src/BackTracking/PalindromePartitioning2.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/FlattenBinaryTreetoLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/ValidateBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/VFacebookTemp/KthLargestElementinanArray.java" />
+        <option value="$PROJECT_DIR$/src/Matrix/PrintDianalg.java" />
       </list>
     </option>
   </component>
@@ -341,6 +373,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -389,7 +422,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DP" />
+              <option name="myItemId" value="VFacebookTemp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -403,28 +436,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DP_backpack" />
+              <option name="myItemId" value="FacebookCode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="combina&#9;PSI&#9;JAVA://DP.DP_backpack.CombinationSum4&#10;palindr&#9;PSI&#9;JAVA://VFacebookTemp.validPalindrome&#10;subset&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/Subsets2.java&#10;intersec&#9;PSI&#9;JAVA://LinkedList.IntersectionofTwoLinkedLists&#10;unique&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/DP/Unique_BST.java&#10;permu&#9;PSI&#9;JAVA://Array.NextPermutation&#10;subse&#9;PSI&#9;JAVA://FacebookTemp.Subsets&#10;subs&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/FacebookTemp/Subsets2.java&#10;subsets&#9;PSI&#9;JAVA://FacebookTemp.Subsets2&#10;combination&#9;PSI&#9;JAVA://BackTracking.CombinationSum&#10;wall&#9;PSI&#9;JAVA://FacebookTemp.WallsAndGates&#10;plus&#9;PSI&#9;JAVA://Array.PlusOne&#10;reverse&#9;PSI&#9;JAVA://String.ReverseWordsinaString&#10;palindrom&#9;PSI&#9;JAVA://Palindrome.PalindromeLinkedList&#10;hist&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/Stack/LargestRectangleinHistogram.java&#10;rectang&#9;PSI&#9;JAVA://Stack.LargestRectangleinHistogram&#10;submatrix&#9;PSI&#9;JAVA://Array.submatrixSum&#10;itera&#9;PSI&#9;JAVA://FacebookTemp.BinarySearchTreeIterator&#10;zigzag&#9;PSI&#9;JAVA://BFS.BinaryTreeZigzagLevelOrderTraversal&#10;maximal&#9;PSI&#9;JAVA://DP.DP_matrix.maximalSquare&#10;LCA&#9;PSI&#9;JAVA://FacebookTemp.LowestCommonAncestorofaBinaryTree&#10;meeting&#9;PSI&#9;JAVA://SweepLine.MeetingRoom&#10;kth&#9;PSI&#9;JAVA://QuickSort.KthLargestElementinanArray&#10;kthlarge&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/QuickSort/KthLargest.java&#10;level&#9;PSI&#9;JAVA://BFS.BinaryTreeLevelOrderTraversal&#10;mergeSorted&#9;PSI&#9;JAVA://MergeSort.MergeSortedArray&#10;Trie&#9;PSI&#9;JAVA://Trie.implementTrie&#10;rotate&#9;PSI&#9;JAVA://Matrix.rotateMatrix&#10;rotated&#9;PSI&#9;JAVA://minRotatedSortedArray&#10;valid&#9;PSI&#9;JAVA://Stack.ValidParentheses&#10;consecuti&#9;PSI&#9;JAVA://Set.LongestConsecutiveSequence&#10;maximumsuba&#9;PSI&#9;JAVA://DP.DP_interval.maximumSubarray3&#10;maximum&#9;PSI&#9;JAVA://DP.DP_interval.MaximumProductSubarray&#10;maximumsub&#9;PSI&#9;JAVA://DP.DP_interval.maximumSubarray2&#10;maxim&#9;PSI&#9;JAVA://DP.DP_interval.maximumSubarray&#10;build&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/SweepLine/buildingOutline.java&#10;bui&#9;PSI&#9;JAVA://SweepLine.buildingOutline&#10;minimumsiz&#9;PSI&#9;JAVA://TwoPointer.minimumSizeSubarraySum&#10;wordla&#9;PSI&#9;JAVA://BFS.WordLadder&#10;produc&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/ProductExceptSelf.java&#10;first&#9;PSI&#9;JAVA://FirstMissingPositive&#10;clim&#9;PSI&#9;JAVA://DP.DP_seuqence.climbStairs&#10;LRU&#9;PSI&#9;JAVA://Design.LRUCache&#10;add&#9;PSI&#9;JAVA://Trie.AddandSearchWord&#10;lowest&#9;PSI&#9;JAVA://Tree.LowestCommonAncestorofaBinarySearchTree&#10;iter&#9;PSI&#9;JAVA://FacebookTemp.BinarySearchTreeIterator&#10;strs&#9;PSI&#9;JAVA://String.strstr&#10;word&#9;PSI&#9;JAVA://FacebookTemp.wordSearch&#10;wordse&#9;PSI&#9;JAVA://DFS.wordSearch&#10;stock&#9;PSI&#9;JAVA://DP.DP_interval.BestTimetoBuyandSellStock" />
+    <property name="SearchEverywhereHistoryKey" value="subarraysum&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/MaximumSizeSubarraySumEqualsK.java&#10;minimum&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/MinimumWindowSubstring.java&#10;validate&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/ValidateBinarySearchTree.java&#10;besttime&#9;PSI&#9;JAVA://VFacebookTemp.BestTimeTiBuyAndSellStockFollowUp&#10;besttim&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/BestTimetoBuyandSellStock2.java&#10;wordbre&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/wordBreak.java&#10;mergek&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/MergeKSortedLists.java&#10;wild&#9;PSI&#9;JAVA://VFacebookTemp.WildcardMatching&#10;regular&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/RegularExpressionMatching.java&#10;task&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/FacebookCode/TaskSchedule.java&#10;deep&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/LowestCommonAncestorOfDeepestLeaves.java&#10;addbina&#9;PSI&#9;JAVA://VFacebookTemp.AddBinary&#10;move&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/MoveZeroes.java&#10;validbina&#9;PSI&#9;JAVA://VFacebookTemp.ValidateBinarySearchTree&#10;valid&#9;PSI&#9;JAVA://VFacebookTemp.validPalindrome&#10;copyran&#9;PSI&#9;JAVA://VFacebookTemp.CopyListwithRandomPointer&#10;split&#9;PSI&#9;JAVA://VFacebookTemp.SplitArrayMinimizeLargestSum&#10;fibona&#9;PSI&#9;JAVA://DP.DP_seuqence.climbStairs#nthFibonacci&#10;pow&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/Pow.java&#10;max&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/MaximumSizeSubarraySumEqualsK.java&#10;vertical&#9;PSI&#9;JAVA://VFacebookTemp.BinaryTreeVerticalOrderTraversal&#10;addand&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/AddandSearchWord.java&#10;subarray&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/MaximumSizeSubarraySumEqualsK.java&#10;atmos&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/longestSubstringwithAtMostKDistinctCharacters.java&#10;firstbad&#9;PSI&#9;JAVA://VFacebookTemp.FirstBadVersion&#10;clone&#9;PSI&#9;JAVA://VFacebookTemp.CloneGraph&#10;numberof&#9;PSI&#9;JAVA://VFacebookTemp.NumberOfIslands&#10;longestinc&#9;PSI&#9;JAVA://DP.DP_seuqence.LongestIncreasingSubsequence&#10;wordla&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/WordLadder.java&#10;mini&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/MinimumWindowSubstring.java&#10;decode&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/DecodeWays.java&#10;group&#9;PSI&#9;JAVA://VFacebookTemp.groupAnagrams&#10;shorte&#9;PSI&#9;JAVA://TwoPointer.ShortestWordDistance2&#10;printdia&#9;PSI&#9;JAVA://Matrix.PrintDianalg&#10;kthla&#9;PSI&#9;JAVA://VFacebookTemp.KthLargestElementinanArray&#10;phone&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/LetterCombinationsofaPhoneNumber.java&#10;single&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/ASingleValidBinarySearchTree.java&#10;intersection&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/FacebookCode/IntersectionOfTwoArrays.java&#10;validbin&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/ValidateBinarySearchTree.java&#10;subset&#9;PSI&#9;JAVA://BackTracking.Subsets2&#10;prime&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/primeProducts.java&#10;moveze&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/MoveZeroes.java&#10;rotated&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/SearchinRotatedSortedArray.java&#10;best&#9;PSI&#9;JAVA://VFacebookTemp.BestTimetoBuyandSellStock2&#10;wordb&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/wordBreak.java&#10;remove&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/RemoveInvalidParentheses.java&#10;longestvali&#9;PSI&#9;JAVA://VFacebookTemp.LongestValidParentheses&#10;merge&#9;PSI&#9;JAVA://VFacebookTemp.MergeSortedArray&#10;vector&#9;FILE&#9;file:///Users/haoyangyuan/Documents/LeetCode/src/VFacebookTemp/SparseVectorMultiplication.java&#10;countand&#9;PSI&#9;JAVA://VFacebookTemp.CountandSay" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -432,13 +456,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="FacebookTemp" />
+      <recent name="helper" />
+      <recent name="Math" />
+      <recent name="DP.DP_seuqence" />
       <recent name="Array" />
-      <recent name="A" />
-      <recent name="BitManipulation" />
-      <recent name="String" />
+      <recent name="FacebookTemp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/VFacebookTemp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/VFacebookTemp" />
+      <recent name="$PROJECT_DIR$/src/DFS" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -765,7 +794,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -773,21 +802,22 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16397415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -810,240 +840,31 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BFS/BinaryTreeZigzagLevelOrderTraversal.java">
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/SerializeandDeserializeBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/BinarySearchTreeIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/FlattenNestedListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="3" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Iterator/PeekingIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Iterator/ZigzagIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/LowestCommonAncestorofaBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/BinaryTreeVerticalOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/BinaryTreePaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/IncreasingTripletSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/HIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/submatrixSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/ReadNCharactersGivenRead4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/maximalSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/MaximalRectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack/LargestRectangleinHistogram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/PalindromeLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/String/ReverseWordsinaString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/PlusOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/ReverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/ReverseNodesinKGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/isSubtree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree/PopulatingNextRightPointersinEachNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="50" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/PopulatingNextRightPointersinEachNode2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/PlusOneLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/RemoveDuplicatesfromSortedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/ReverseLinkedList2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/RemoveDuplicatesfromSortedList2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/RemoveDuplicatesfromSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/RemoveDuplicatesfromSortedArray2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/WallsAndGates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array/NextPermutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Matrix/findPathInMazeDFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/Unique_BST.java">
+    <entry file="file://$PROJECT_DIR$/src/Deque/SlidingWindowMaximum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList/IntersectionofTwoLinkedLists.java">
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/ConvertDoublyLinkedListtoBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="185" column="24" selection-start-line="185" selection-start-column="24" selection-end-line="185" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/FlattenBinaryTreetoLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
@@ -1051,50 +872,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VGoogleTemp/LongestAbsoluteFilePath.java">
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/BestTimetoBuyandSellStock3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VGoogleTemp/Google1.java">
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/CountandSay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/validPalindrome.java">
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/SparseVectorMultiplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BackTracking/CombinationSum2.java">
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/MergeSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BackTracking/CombinationSum.java">
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/LongestValidParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BackTracking/Subsets.java">
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/RemoveInvalidParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/BestTimetoBuyandSellStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/SearchinRotatedSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/primeProducts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1107,77 +952,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BackTracking/Permutations2.java">
+    <entry file="file://$PROJECT_DIR$/FacebookCode/IntersectionOfTwoArrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BackTracking/Permutations.java">
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/ASingleValidBinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BackTracking/PalindromePartitioning.java">
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/LetterCombinationsofaPhoneNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BackTracking/PalindromePartitioning2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BackTracking/CombinationSum3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#532#547#0" expanded="true" />
-            <element signature="e#659#668#0" expanded="true" />
-            <element signature="e#1162#1171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sameDirectory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_backpack/Backpack_closestAmount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_backpack/CombinationSum4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_backpack/Backpack_valueWeight.java">
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/KthLargestElementinanArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
@@ -1185,10 +984,266 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DP/DP_backpack/Backpack_coinTypes.java">
+    <entry file="file://$PROJECT_DIR$/src/Matrix/PrintDianalg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1278409">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoPointer/ShortestWordDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoPointer/ShortestWordDistance2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/groupAnagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackTracking/Permutations2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/DecodeWays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/WordLadder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/DP_seuqence/LongestIncreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/NumberOfIslands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/CloneGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="60" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/FirstBadVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/longestSubstringwithAtMostKDistinctCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/AddandSearchWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/BinaryTreeVerticalOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/Pow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/DP_seuqence/climbStairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/SplitArrayMinimizeLargestSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/CopyListwithRandomPointer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/validPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/MoveZeroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/AddBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/LowestCommonAncestorOfDeepestLeaves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FacebookCode/TaskSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/RegularExpressionMatching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/WildcardMatching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/MergeKSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="96" column="28" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/wordBreak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/BestTimetoBuyandSellStock2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/BestTimeTiBuyAndSellStockFollowUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/ValidateBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/minimumSizeSubarraySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/MinimumWindowSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VFacebookTemp/MaximumSizeSubarraySumEqualsK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3803419">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding />
         </state>
       </provider>

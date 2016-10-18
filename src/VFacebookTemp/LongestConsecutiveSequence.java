@@ -22,6 +22,8 @@ public class LongestConsecutiveSequence {
 
         int longest = 0;
         for (int i = 0; i < nums.length; i++) {
+            set.remove(nums[i]);
+
             int down = nums[i] - 1;
             while (set.contains(down)) {
                 set.remove(down);

@@ -31,6 +31,10 @@ public class WordLadder{
 		if(dict.size()==0){
 			return 0;
 		}
+
+		if(start.equals(end)) {
+			return 1;
+		}
 		//queue to store words and distances from starting word
 		Queue<String> words = new LinkedList<String>();
 		Queue<Integer> dist = new LinkedList<Integer>();
@@ -38,27 +42,25 @@ public class WordLadder{
 		//initial condition
 		words.offer(start);
 		dist.offer(1);
-
-		//start from a possible position
 		while(!words.isEmpty()){
 			String curr = words.poll();
 			int currDist = dist.poll();
 			int len = curr.length();
-			
-			//find target
-			if(curr.equals(end)){
-				return currDist;
-			}
 
-			//try each character
+			//try each position
 			for(int i=0; i<len; i++){
 				char[] currChar = curr.toCharArray();
-				//try all combinations
+				//try each character
 				for(int j='a'; j<='z'; j++){
 					currChar[i] = (char)j;
 					String temp = new String(currChar);
 
-					// if find
+					//find target
+					if(temp.equals(end)){
+						return currDist+1;
+					}
+
+					//intermediate word is in dictionary
 					if(dict.contains(temp)){
 						words.offer(temp);
 						dist.offer(currDist+1);

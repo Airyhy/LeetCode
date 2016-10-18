@@ -35,13 +35,12 @@ public class CombinationSum4 {
         }
 
         int[] dp = new int[target+1];
+        dp[0] = 1;
         for(int i=0;i<dp.length;i++){
             for(int j=0; j<nums.length;j++){
 
-                //try all the possible nodes
-               if(i==nums[j]){
-                    dp[i] += 1;
-                } else if(i>nums[j]){
+                //try all the possib
+                if(i>=nums[j]){
                     dp[i] += dp[i-nums[j]];
                 }
             }

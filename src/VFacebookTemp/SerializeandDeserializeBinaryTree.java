@@ -106,19 +106,24 @@ public class SerializeandDeserializeBinaryTree {
         String[] values = data.split(" ");
         TreeNode root = new TreeNode(Integer.parseInt(values[0]));
         q.add(root);
-        for (int i = 1; i < values.length; i++) {
+        int i = 1;
+
+        while (q.isEmpty()==false) {
             TreeNode parent = q.poll();
+            if(parent==null){continue;}
+            TreeNode left = null, right =null;
             if (!values[i].equals("n")) {
-                TreeNode left = new TreeNode(Integer.parseInt(values[i]));
-                parent.left = left;
-                q.add(left);
+                left = new TreeNode(Integer.parseInt(values[i]));
             }
+            parent.left = left;
+            q.add(left);
             i++;
             if (!values[i].equals("n")) {
-                TreeNode right = new TreeNode(Integer.parseInt(values[i]));
-                parent.right = right;
-                q.add(right);
+                right = new TreeNode(Integer.parseInt(values[i]));
             }
+            parent.right = right;
+            q.add(right);
+            i++;
         }
         return root;
     }

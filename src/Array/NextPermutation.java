@@ -43,7 +43,6 @@ public class NextPermutation {
         //rest the larger one and reverse end
         swap(nums,idx,j);
         reverse(nums,idx+1);
-
     }
 
     public void swap(int[] nums, int i, int j){
@@ -58,6 +57,5 @@ public class NextPermutation {
         while (l < r) {
             swap(nums, l++, r--);
         }
-
     }
 }

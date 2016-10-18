@@ -6,40 +6,34 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Given a matrix of lower alphabets and a dictionary.
- * Find all words in the dictionary that can be found in the matrix.
- * A word can start from any position in the matrix and go left/right/up/down to the adjacent position.
- *
- *
- * Given matrix:
- doaf
- agai
- dcan
- and dictionary:
- {"dog", "dad", "dgdg", "can", "again"}
+ Given a 2D board and a list of words from the dictionary, find all words in the board.
+ Each word must be constructed from letters of sequentially adjacent cell,
+ where "adjacent" cells are those horizontally or vertically neighboring.
+ The same letter cell may not be used more than once in a word.
 
- return {"dog", "dad", "can", "again"}
+ For example,
+ Given words = ["oath","pea","eat","rain"] and board =
 
- dog:
- doaf
- agai
- dcan
+ [
+ ['o','a','a','n'],
+ ['e','t','a','e'],
+ ['i','h','k','r'],
+ ['i','f','l','v']
+ ]
 
- dad:
- doaf
- agai
- dcan
+ Return ["eat","oath"].
+ Note:
+ You may assume that all inputs are consist of lowercase letters a-z.
 
- can:
- doaf
- agai
- dcan
 
- again:
- doaf
- agai
- dcan
+ You would need to optimize your backtracking to pass the larger test.
+ Could you stop backtracking earlier?
+
+ If the current candidate does not exist in all words' prefix, you could stop backtracking immediately.
+ What kind of data structure could answer such query efficiently?
+ Does a hash table work? Why or why not? How about a Trie?
  */
+
 public class wordSearch2 {
 
 

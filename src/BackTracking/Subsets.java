@@ -30,14 +30,13 @@ public class Subsets {
 
     public List<List<Integer>> subsets(int[] nums) {
         int len = nums.length;
-        if(len ==0 ) return result;
+        if( len == 0 ) return result;
         List<Integer> entry = new ArrayList();
         Arrays.sort(nums);
 
         DFS(0,nums,entry);
         return result;
     }
-
 
     private void DFS(int index,int[] nums,List<Integer> entry){
         result.add(entry);
@@ -48,5 +47,7 @@ public class Subsets {
             DFS( i + 1, nums, newEntry );
         }
     }
+
+
 
 }

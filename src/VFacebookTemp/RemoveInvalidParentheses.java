@@ -16,6 +16,49 @@ import java.util.*;
 public class RemoveInvalidParentheses {
 
     /**
+     * Give a string, return valid parenthesis with least modification
+     */
+    public static String removeInvalid(String str) {
+        // check edge case
+        if (str == null || str.length() == 0) {
+            return str;
+        }
+
+        // preprocess
+        Stack<Integer> stack = new Stack<Integer>();
+        HashSet<Integer> set = new HashSet<Integer>();
+        // main
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            if (ch == '(') {
+                stack.push(i);
+            } else if (ch == ')') {
+                if (stack.isEmpty()) {
+                    //add all invalid ) to set
+                    set.add(i);
+                } else {
+                    stack.pop();
+                }
+            }
+        }
+        //add all invalid ( to set
+        while (!stack.isEmpty()) {
+            set.add(stack.pop());
+        }
+
+        // reconstruct
+        String result = "";
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            if (set.contains(i)) {
+                continue;
+            }
+            result += ch;
+        }
+        return result;
+    }
+
+    /**
      * DFS answer
      */
     public List<String> removeInvalidParentheses(String s) {

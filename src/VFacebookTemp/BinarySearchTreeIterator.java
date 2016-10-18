@@ -25,7 +25,7 @@ public class BinarySearchTreeIterator {
     private Stack<TreeNode> stack = new Stack<TreeNode>();
 
     public BinarySearchTreeIterator(TreeNode root) {
-        pushAll(root);
+        pushAllLft(root);
     }
 
     /** @return whether we have a next smallest number */
@@ -36,11 +36,11 @@ public class BinarySearchTreeIterator {
     /** @return the next smallest number */
     public int next() {
         TreeNode tmpNode = stack.pop();
-        pushAll(tmpNode.right);
+        pushAllLft(tmpNode.right);
         return tmpNode.val;
     }
 
-    private void pushAll(TreeNode node) {
+    private void pushAllLft(TreeNode node) {
         while(node!=null){
             stack.push(node);
             node = node.left;

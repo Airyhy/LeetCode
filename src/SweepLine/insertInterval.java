@@ -35,6 +35,8 @@ public class insertInterval {
             result.add(intervals.get(i));
             i++;
         }
+
+        //start insert
         int start = newInterval.start;
         int end = newInterval.end;
         while(i<len && intervals.get(i).start<=newInterval.end){

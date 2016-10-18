@@ -17,6 +17,10 @@ package VFacebookTemp;
  */
 public class DecodeWays {
 
+    //请问楼主有*怎么写啊 能详细说说嘛？ 是求*代表的所有可能情况的和吗？
+    //我当时说要clarify题意，如果是分割的种类（比如2*2,可以是2,*,2 ; 2*,2; 2, *2)就只是在判断valid的时候改。
+    // 如果包含所有*替换的可能性就把*能换成的12345...都算进去。然后他就说ok了。
+
     public int numDecodings(String s) {
         if(s.length()==0 || s.charAt(0)<'1'){
             return 0;

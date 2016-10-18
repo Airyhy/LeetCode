@@ -1,43 +1,37 @@
 package BinarySearch;
 
 
-/** There is an integer array which has the following features:
+/**
+ A peak element is an element that is greater than its neighbors.
 
-        The numbers in adjacent positions are different.
-        A[0] < A[1] && A[A.length - 2] > A[A.length - 1].
-        We define a position P is a peek if:
+ Given an input array where num[i] ≠ num[i+1], find a peak element and return its index.
 
-        A[P] > A[P-1] && A[P] > A[P+1]
-        Find a peak element in this array. Return the index of the peak.
+ The array may contain multiple peaks, in that case return the index to any one of the peaks is fine.
 
-        Notice
+ You may imagine that num[-1] = num[n] = -∞.
 
-        The array may contains multiple peeks, find any of them.
-
-        Have you met this question in a real interview? Yes
-        Example
-        Given [1, 2, 1, 3, 4, 5, 7, 6]
-
-        Return index 1 (which is number 2) or 6 (which is number 7)
-
+ For example, in array [1, 2, 3, 1], 3 is a peak element and your function should return the index number 2.
  */
 
 public class FindPeakElement {
 
-    public int findPeak(int[] A) {
+    public int findPeakElement(int[] A) {
+        int start = 0, end = A.length-1;
 
-        int l = 0, r = A.length - 1;
-        int mid = A[0];
-        while(r>=l){
-            mid = (r - l)/2 + l;
-            if(A[mid] < A[mid-1]){
-                r = mid;
-            } else if(A[mid] < A[mid+1]){
-                l = mid;
+        while(start + 1 <  end) {
+            int mid = (start + end) / 2;
+            if(A[mid] < A[mid - 1]) {
+                end = mid;
+            } else if(A[mid] < A[mid + 1]) {
+                start = mid;
             } else {
-                return mid;
+                end = mid;
             }
         }
-        return mid;
+        if(A[start] < A[end]) {
+            return end;
+        } else {
+            return start;
+        }
     }
 }

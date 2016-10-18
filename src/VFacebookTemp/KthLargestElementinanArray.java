@@ -1,5 +1,6 @@
 package VFacebookTemp;
 
+import java.util.PriorityQueue;
 
 /**
 
@@ -11,6 +12,10 @@ In array [1,2,3,4,5], the 1st largest element is 5, 2nd largest element is 4, 3r
  */
 public class KthLargestElementinanArray {
 
+
+    /**
+     * O(n)
+     */
     public int findKthLargest(int[] nums, int k) {
         int len = nums.length;
         int i=0, j=len-1;
@@ -26,6 +31,7 @@ public class KthLargestElementinanArray {
                 j = mid - 1;
             }
         }
+
         return nums[i];
     }
 
@@ -43,5 +49,23 @@ public class KthLargestElementinanArray {
         }
         nums[i] = temp;
         return i;
+    }
+
+
+    /**
+     * nlogk
+     */
+    public int findKthLargest1(int[] nums, int k) {
+        PriorityQueue<Integer> heap = new PriorityQueue<>(k);
+        for(int i=0;i<k;i++){
+            heap.offer(nums[i]);
+        }
+        for(int i=k;i<nums.length;i++){
+            if(heap.peek()<nums[i]){
+                heap.poll();
+                heap.offer(nums[i]);
+            }
+        }
+        return heap.peek();
     }
 }

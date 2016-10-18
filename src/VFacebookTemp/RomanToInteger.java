@@ -1,5 +1,8 @@
 package VFacebookTemp;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Given a roman numeral, convert it to an integer.
 
@@ -19,7 +22,7 @@ package VFacebookTemp;
  */
 public class RomanToInteger {
 
-    public int romanToInt(String s) {
+    public int romanToInt1(String s) {
         int value = 0;
         char[] str = s.toCharArray();
         char one;
@@ -52,5 +55,37 @@ public class RomanToInteger {
 
         }
         return value;
+    }
+
+    /**
+     * from the end to the start
+     * if the current is smaller than the last  -
+     * else +
+     *
+     * */
+    //O(1)
+    public int romanToInt(String s) {
+        if (s == null || s.length() == 0) {return 0;}
+        int len = s.length();
+        Map<Character, Integer> map = new HashMap<>();
+        map.put('I',1);
+        map.put('V',5);
+        map.put('X',10);
+        map.put('L',50);
+        map.put('C',100);
+        map.put('D',500);
+        map.put('M',1000);
+        int ret = map.get(s.charAt(len - 1));
+        int last = ret;
+        for (int i = len - 2; i >= 0; i--) {
+            int curr = map.get(s.charAt(i));
+            if (curr < last) {
+                ret -= curr;
+            } else {
+                ret += curr;
+            }
+            last = curr;
+        }
+        return ret;
     }
 }

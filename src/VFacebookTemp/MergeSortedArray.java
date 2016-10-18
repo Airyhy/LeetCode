@@ -27,4 +27,22 @@ public class MergeSortedArray {
         return;
     }
 
+
+
+    //merge into a new array
+    public int[] merge2(int[] nums1, int[] nums2) {
+        int m = nums1.length, n = nums2.length;
+        int[] ret = new int[m + n];
+        int p1 = 0, p2 = 0, p = 0;
+        while (p1 < m && p2 < n) {
+            ret[p++] = nums1[p1] < nums2[p2] ? nums1[p1++] : nums2[p2++];
+        }
+        while (p1 < m) {
+            ret[p++] = nums1[p1++];
+        }
+        while (p2 < n) {
+            ret[p++] = nums2[p2++];
+        }
+        return ret;
+    }
 }

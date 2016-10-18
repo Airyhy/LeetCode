@@ -20,20 +20,6 @@ import java.util.Arrays;
 public class HIndex {
 
 
-    public int hIndex(int[] citations) {
-
-        Arrays.sort(citations);
-        int max = 0;
-
-        for(int i= citations.length-1; i>=0; i--){
-            int num = citations[i];
-
-            if ( citations.length - i <= num ){
-                max = Math.max(max,citations.length - i);
-            }
-        }
-        return max;
-    }
 
     /**
      * Bucket sort
@@ -57,6 +43,26 @@ public class HIndex {
             }
         }
         return 0;
+    }
+
+    /**
+     * Sort and count from the end
+     */
+    public int hIndex(int[] citations) {
+
+        Arrays.sort(citations);
+        int max = 0;
+
+        for(int i= citations.length-1; i>=0; i--){
+            int num = citations[i];
+
+            if ( citations.length - i <= num ){
+                max =  citations.length - i;
+            } else {
+                break;
+            }
+        }
+        return max;
     }
 
 }

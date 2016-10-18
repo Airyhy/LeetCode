@@ -43,7 +43,10 @@ public class validSudoku{
 	}
 
 
-
+	/**
+	 * Sudoku Solver
+	 * https://discuss.leetcode.com/topic/11327/straight-forward-java-solution-using-backtracking
+     */
 
 
 	public boolean isValidSudoku1(char[][] board) {

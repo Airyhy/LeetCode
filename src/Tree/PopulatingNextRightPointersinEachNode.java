@@ -1,5 +1,8 @@
 package Tree;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Given a binary tree
 
@@ -20,7 +23,7 @@ package Tree;
  You may assume that it is a perfect binary tree (ie, all leaves are at the same level, and every parent has two children).
  For example,
  Given the following perfect binary tree,
- 1
+  1
  /  \
  2    3
  / \  / \
@@ -56,6 +59,22 @@ public class PopulatingNextRightPointersinEachNode {
             connectnode(node1.left,node1.right);
             connectnode(node2.left,node2.right);
             connectnode(node1.right,node2.left);
+        }
+    }
+
+    //BFS iterate
+    public void connect2(TreeLinkNode root) {
+        if (root == null) return;
+        Queue<TreeLinkNode> que = new LinkedList<>();
+        que.add(root);
+        while (!que.isEmpty()) {
+            int size = que.size();
+            while (size-- > 0) {
+                TreeLinkNode temp = que.poll();
+                if (temp.left != null) que.add(temp.left);
+                if (temp.right != null) que.add(temp.right);
+                temp.next = size == 0 ? null : que.peek();
+            }
         }
     }
 }

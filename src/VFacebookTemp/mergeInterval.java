@@ -1,6 +1,7 @@
 package VFacebookTemp;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -27,7 +28,7 @@ public class mergeInterval {
         if (intervals.size() <= 1)
             return intervals;
 
-        intervals.sort(new Comparator<Interval>(){
+        Collections.sort(intervals,new Comparator<Interval>(){
             @Override
             public int compare(Interval o1,Interval o2){
                 return o1.start-o2.start;
@@ -41,11 +42,11 @@ public class mergeInterval {
             if (  prev==null || inter.start>prev.end ) {
                 ret.add(inter);
                 prev = inter;
-            } else if (inter.end>prev.end) {
-                // Modify the element already in list
-                prev.end = inter.end;
+            } else {
+                prev.end = Math.max(prev.end,inter.end);
             }
         }
+
         return ret;
     }
 

@@ -1,5 +1,8 @@
 package VFacebookTemp;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Given a boolean 2D matrix, find the number of islands.
  * [
@@ -50,4 +53,43 @@ public class NumberOfIslands {
 
     }
 
+
+
+    //如果是斜着也可以  加上{-1, -1}, {-1, 1}, {1, -1}, {1, 1}
+    //bfs //O(n), 0(n)
+    final static int[][] Move = new int[][]{{-1, 0}, {0, 1}, {0, -1}, {1, 0}};
+
+
+    //O(m * n), space: depends
+    public int numIslands(char[][] grid) {
+        if (grid.length == 0 || grid[0].length == 0) return 0;
+        int m = grid.length, n = grid[0].length;
+        int cnt = 0;
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (grid[i][j] == '1') {
+                    cnt++;
+                    Queue<Integer> que = new LinkedList<>();
+                    //marked as visited
+                    grid[i][j] = '2';
+                    que.add(i * n + j);
+
+                    while (!que.isEmpty()) {
+                        int temp = que.poll();
+                        for (int[] next : Move) {
+                            int nextX = temp / n + next[0], nextY = temp % n + next[1];
+                            if (nextX < 0 || nextY < 0 || nextX >= m || nextY >= n || grid[nextX][nextY] != '1') {
+                                continue;
+                            }
+                            que.add(nextX * n + nextY);
+                            grid[nextX][nextY] = '2';
+                        }
+                    }
+
+                }
+            }
+        }
+        return cnt;
+    }
 }

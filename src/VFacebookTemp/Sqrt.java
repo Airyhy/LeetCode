@@ -18,7 +18,7 @@ public class Sqrt {
         }
 
         int left = 1, right = x;
-        while (true) {
+        while (left<right) {
             int mid = left + (right - left)/2;
             if (mid > x/mid) {
                 right = mid - 1;
@@ -27,9 +27,9 @@ public class Sqrt {
             }
             else{
                 left = mid + 1;
-
             }
         }
+        return left;
     }
 
     /**

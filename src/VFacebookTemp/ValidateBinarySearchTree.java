@@ -2,6 +2,7 @@ package VFacebookTemp;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * Given a binary tree, determine if it is a valid binary search tree (BST).
@@ -23,7 +24,8 @@ public class ValidateBinarySearchTree{
         }
     }
 
-	//recursive
+    //O(n), space: O(logn), worst: O(n)
+    //recursive
     public boolean isValidBST1(TreeNode root) {
         return helper(root,null,null);
     }
@@ -37,28 +39,31 @@ public class ValidateBinarySearchTree{
         return helper(root.left,min,root.val) && helper(root.right,root.val,max);
     }
 
-    
 
 
-     //use inorder traversal to convert it to a list first
+    //O(n), space: O(logn), worst: O(n)
+    //use inorder traversal iterate
     public boolean isValidBST(TreeNode root) {
         if (root == null) return true;
-        List<Integer> result = new ArrayList<Integer>();
-        inOrderList(root, result);
-        for (int i = 0; i < result.size() - 1; i++) {
-            if (result.get(i) >= result.get(i + 1)) {
+        Stack<TreeNode> stack = new Stack<>();
+
+        TreeNode pre = null;
+        TreeNode node = root;
+        while (node!= null || !stack.isEmpty()) {
+            while (node != null) {
+                stack.add(node);
+                node = node.left;
+            }
+
+            node = stack.pop();
+            if (pre != null && node.val <= pre.val) {
                 return false;
             }
+            pre = node;
+            node = node.right;
         }
         return true;
     }
 
-
-    public void inOrderList(TreeNode root, List<Integer> res) {
-        if (root == null) return;
-        inOrderList(root.left, res);
-        res.add(root.val);
-        inOrderList(root.right, res);
-    }
 
 }

@@ -1,5 +1,7 @@
 package Tree;
 
+import helper.TreeNode;
+
 /**
  * Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.
 
@@ -18,13 +20,6 @@ package Tree;
  Another example is LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself according to the LCA definition.
  */
 public class LowestCommonAncestorofaBinarySearchTree {
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
 
     public class LCASearchTree {
 

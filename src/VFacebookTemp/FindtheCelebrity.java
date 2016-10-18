@@ -20,6 +20,8 @@ public class FindtheCelebrity {
 
     public int findCelebrity(int n) {
         int candidate = 0;
+
+        //find the person who is known by at leat one person, but knows nobody else yet
         for(int i = 1; i < n; i++){
             if(knows(candidate, i))
                 candidate = i;

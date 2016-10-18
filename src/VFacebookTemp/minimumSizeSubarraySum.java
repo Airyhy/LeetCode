@@ -11,6 +11,8 @@ package VFacebookTemp;
  */
 public class minimumSizeSubarraySum {
 
+
+
     public int minimumSize(int[] nums, int s) {
         // write your code here
         if( nums==null || nums.length==0 ){
@@ -37,5 +39,51 @@ public class minimumSizeSubarraySum {
             return min;
         }
     }
+
+
+
+    /**
+     * Brute Force
+     */
+    int smallestSubWithSum(int arr[], int n, int x)
+    {
+        //  Initilize length of smallest subarray as n+1
+        int min_len = n + 1;
+
+        // Pick every element as starting point
+        for (int start = 0; start < n; start++)
+        {
+            // Initialize sum starting with current start
+            int curr_sum = arr[start];
+
+            // If first element itself is greater
+            if (curr_sum >= x)
+                return 1;
+
+            // Try different ending points for curremt start
+            for (int end = start + 1; end < n; end++)
+            {
+                // add last element to current sum
+                curr_sum += arr[end];
+
+                // If sum becomes more than x and length of
+                // this subarray is smaller than current smallest
+                // length, update the smallest length (or result)
+                if (curr_sum >= x && (end - start + 1) < min_len)
+                    min_len = (end - start + 1);
+            }
+        }
+        return min_len;
+    }
+
+    /**
+     * 把第一题extend到2D。给一个matrix, all elements are positive，问有没有个sub rectangle加起来和等于target。
+     * return true/false。
+     Lz听到题目有点懵，认真调整心态，解决之。先写了个cumulative sum。
+     把所有从0,0 到i,j的和算在新的matrix的i,j上。方便之后算head到tail的sub rectangle的和。这一步O(n^2)
+
+     submatrixSum
+     */
+
 
 }

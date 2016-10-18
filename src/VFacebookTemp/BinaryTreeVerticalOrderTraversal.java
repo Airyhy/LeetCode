@@ -1,5 +1,7 @@
 package VFacebookTemp;
 
+import helper.TreeNode;
+
 import java.util.*;
 
 /**
@@ -71,12 +73,12 @@ public class BinaryTreeVerticalOrderTraversal {
             if(node.left != null) {
                 q.add(node.left);
                 cols.add(col - 1);
-                if(col <= min) min = col - 1;
+                min = Math.min(min,col - 1);
             }
             if(node.right != null) {
                 q.add(node.right);
                 cols.add(col + 1);
-                if(col >= max) max = col + 1;
+                max = Math.max(max,col+1);
             }
         }
 
@@ -85,13 +87,5 @@ public class BinaryTreeVerticalOrderTraversal {
             res.add(map.get(i));
         }
         return res;
-    }
-
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
     }
 }

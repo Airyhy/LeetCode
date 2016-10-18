@@ -2,6 +2,7 @@ package VFacebookTemp;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * Given a digit string, return all possible letter combinations that the number could represent.
@@ -13,9 +14,9 @@ import java.util.List;
  */
 public class LetterCombinationsofaPhoneNumber {
 
-    public List<String> letterCombinations(String digits) {
+    public Queue<String> letterCombinations(String digits) {
         String[] mapping = new String[] {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-        List<String> result = new LinkedList<>();
+        Queue<String> result = new LinkedList<>();
 
         if(digits.length()==0) return result;
         result.add(new String());
@@ -25,12 +26,11 @@ public class LetterCombinationsofaPhoneNumber {
             char c = digits.charAt(i);
 
             for(int j=0;j<len;j++){
-                String temp = result.get(0);
-                for(char s : mapping[c-'0'].toCharArray()){
+                String temp = result.poll();
+                for(char s : mapping[c-'0'].toCharArray()) {
                     String temp1 = new String(temp) + s;
                     result.add(temp1);
                 }
-                result.remove(0);
             }
         }
 
@@ -39,7 +39,7 @@ public class LetterCombinationsofaPhoneNumber {
 
 
     /**
-     *
+     * Recursive
      */
     private static final String[] KEYS = { "", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
 

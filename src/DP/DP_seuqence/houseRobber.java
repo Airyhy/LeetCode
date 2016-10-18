@@ -1,5 +1,9 @@
 package DP.DP_seuqence;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * You are a professional robber planning to rob houses along a street.
  * Each house has a certain amount of money stashed,
@@ -31,4 +35,50 @@ public class houseRobber {
         return max[nums.length-1];
     }
 
+
+
+    public List<Integer> houseRobberGetPos(int[] nums) {
+        if (nums.length == 0) {
+            return new ArrayList<>();
+        }
+        if (nums.length == 1) {
+            return Arrays.asList(0);
+        }
+
+        int even = nums[0];
+        List<Integer> evenList = new ArrayList<>();
+        evenList.add(0);
+
+        int odd;
+        List<Integer> oddList = new ArrayList<>();
+        if (nums[0] > nums[1]) {
+            odd = nums[0];
+            oddList.add(0);
+        } else {
+            odd = nums[1];
+            oddList.add(1);
+        }
+
+        for (int i = 2; i < nums.length; i++) {
+            if (i % 2 == 0) {
+                if (even + nums[i] > odd) {
+                    even += nums[i];
+                    evenList.add(i);
+                } else {
+                    even = odd;
+                    evenList = new ArrayList<>(oddList);
+                }
+            } else {
+                if (odd + nums[i] > even) {
+                    odd += nums[i];
+                    oddList.add(i);
+                } else {
+                    odd = even;
+                    oddList = new ArrayList<>(evenList);
+                }
+            }
+        }
+
+        return even > odd ? evenList : oddList;
+    }
 }

@@ -35,6 +35,8 @@ public class BinarySearchTreeMinPathSum {
     }
 
 
+
+
     static int minSum;
     public static int minPath(TreeNode root) {
         minSum = Integer.MAX_VALUE;

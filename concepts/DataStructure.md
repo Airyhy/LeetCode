@@ -69,10 +69,10 @@
   + first child + next sibling for tree node
   
   ``` 
-      class TreeNode{
+      class helper.TreeNode{
          Object element;
-         TreeNode firstChild;
-         TreeNode nextSibling;
+         helper.TreeNode firstChild;
+         helper.TreeNode nextSibling;
   ```
 - traversal
   + preorder traversal

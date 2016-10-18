@@ -36,4 +36,18 @@ public class isSubtree {
         }
     }
 
+
+
+    public boolean isSubtreeBST(TreeNode a, TreeNode b) {
+        if(a == null && b == null) return true;
+        if(a == null || b == null) return false;
+        if(a.val > b.val) {
+            return isSubtree(a.left,b);
+        } else if(a.val < b.val) {
+            return isSubtree(a.right,b);
+        } else {
+            return isSubtree(a.left,b.left) && isSubtree(a.right,b.right);
+        }
+    }
+
 }

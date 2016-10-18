@@ -28,7 +28,7 @@ import java.util.PriorityQueue;
 
 public class MedianfromDataStream {
 
-    class MedianFinder {
+
 
 
         PriorityQueue<Integer> min = new PriorityQueue();
@@ -47,5 +47,5 @@ public class MedianfromDataStream {
             if (max.size() == min.size()) return (max.peek() + min.peek()) / 2.0;
             else return max.peek();
         }
-    };
+
 }

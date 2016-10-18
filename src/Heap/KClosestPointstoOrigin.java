@@ -1,7 +1,6 @@
 package Heap;
 
-import java.util.Comparator;
-import java.util.PriorityQueue;
+import java.util.*;
 
 /**
  * Find the K closest points to the origin in 2D plane, given an array containing N points.
@@ -32,29 +31,17 @@ public class KClosestPointstoOrigin {
 
         PriorityQueue<Point> maxHeap = new PriorityQueue<>(k, new Comparator<Point>() {
             public int compare(Point p1, Point p2) {
-
                 return distanceSquare(p2, origin) - distanceSquare(p1, origin);
             }
         });
-
-        int tempMax = Integer.MAX_VALUE;
 
         for (Point current : points) {
             if (maxHeap.size() < k) {
                 maxHeap.offer(current);
             } else {
-                if (tempMax==Integer.MAX_VALUE){
-                    tempMax = distanceSquare(maxHeap.peek(), origin);
-                }
-
-                if( tempMax <= Math.max(current.x,current.y)){
-                    continue;
-                }
-
                 if (distanceSquare(current, origin) < distanceSquare(maxHeap.peek(), origin)) {
                     maxHeap.poll();
                     maxHeap.offer(current);
-                    tempMax = distanceSquare(maxHeap.peek(), origin);
                 }
             }
         }
@@ -62,13 +49,78 @@ public class KClosestPointstoOrigin {
         for (int i = result.length - 1; i >= 0; i--) {
             result[i] = maxHeap.poll();
         }
-
         return result;
     }
 
     public int distanceSquare(Point p1, Point p2){
-
         return (p1.x-p2.x)*(p1.x-p2.x) + (p1.y-p2.y)*(p1.y-p2.y);
     }
 
+
+
+    //heap better
+    //O(N lg K) running time + O(K) memory
+    public Point findKthNearest2(Point[] Plain, Point target, int k) {
+
+        //create a max heap
+        Queue<Point> heap = new PriorityQueue<>(Plain.length, new Comparator<Point>() {
+            @Override
+            public int compare(Point o1, Point o2) {
+                double d1 = (o1.x - target.x) * (o1.x - target.x) +
+                        (o1.y - target.y) * (o1.y - target.y);
+                double d2 = (o2.x - target.x) * (o2.x - target.x) +
+                        (o2.y - target.y) * (o2.y - target.y);
+
+                return (int) (d2 - d1);
+            }
+        });
+
+        for(Point point : Plain) {
+            heap.offer(point);
+
+            if(heap.size() > k) {
+                heap.poll();
+            }
+        }
+        return heap.peek();
+    }
+
+
+
+    //quick select
+    //Average:O(n), worst:O(n^2)(如果不是random), O(n)
+    static final Random random = new Random();
+    public Point findKthNearest(Point[] Plain, Point target, int k) {
+        Map<Point, Double> dis = new HashMap<>();
+        for (Point point : Plain) {
+            dis.put(point, Math.sqrt((point.x - target.x) * (point.x - target.x) +
+                    (point.y - target.y) * (point.y - target.y)));
+        }
+        k = Plain.length - k - 1;
+        int start = 0, end = Plain.length;
+        while (true) {
+            int pos = start + random.nextInt(end - start);
+            double pivot = dis.get(Plain[pos]);
+            Plain[pos] = Plain[end - 1];
+            int left = start, right = start;
+
+            for (; right < end - 1; right++) {
+                if (dis.get(Plain[right]) <= pivot) {
+                    Point temp = Plain[right];
+                    Plain[right] = Plain[left];
+                    Plain[left++] = temp;
+                }
+            }
+
+            if (k == left - start + 1) {
+                return Plain[pos];
+            } else if (k < left - start + 1) {
+                end = left;
+            } else {
+                k = k - (left - start + 1);
+                start = left;
+                end--;
+            }
+        }
+    }
 }

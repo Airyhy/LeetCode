@@ -12,6 +12,7 @@ public class ReverseLinkedList {
         ListNode(int x) { val = x; }
     }
 
+    //O(n), O(1)
     public class Solution {
         public ListNode reverseList(ListNode head) {
             if(head==null) return null;
@@ -27,5 +28,18 @@ public class ReverseLinkedList {
             return prev;
 
         }
+    }
+
+    //recursive
+    //O(n), 0(n)
+    public ListNode reverseList1(ListNode head) {
+        return reverseListInt(head, null);
+    }
+
+    public ListNode reverseListInt(ListNode head, ListNode newHead) {
+        if(head == null) {return newHead;}
+        ListNode next = head.next;
+        head.next = newHead;
+        return reverseListInt(next, head);
     }
 }

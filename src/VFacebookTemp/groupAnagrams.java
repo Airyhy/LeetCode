@@ -17,6 +17,27 @@ import java.util.*;
 
 public class groupAnagrams {
 
+    //O(n), O(n)
+    //如果有sort  O(nlogn)
+    public List<List<String>> groupAnagrams1(String[] strs) {
+        Arrays.sort(strs);
+        Map<String, List<String>> map = new HashMap<>();
+
+        for (String s:strs) {
+            char[] keyArr = new char[26];
+            for (int i = 0; i < s.length(); i++) {
+                keyArr[s.charAt(i) - 'a']++;
+            }
+            String key = new String(keyArr);
+            if (!map.containsKey(key)) {map.put(key, new ArrayList<>());}
+            map.get(key).add(s);
+        }
+
+        return new ArrayList<>(map.values());
+    }
+
+
+    //O(n  * len * log(len))
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String,List<String>> map= new HashMap();
         Arrays.sort(strs);

@@ -12,55 +12,26 @@ package VFacebookTemp;
 public class AddBinary {
 
 
+
     public String addBinary(String a, String b) {
-        int lena = a.length();
-        int lenb = b.length();
-        int i = 0, carry = 0;
-        String res = "";
-
-        while(i<lena || i<lenb || carry!=0){
-            int x = (i<lena) ? a.charAt(lena - 1 - i)-'0' : 0;
-            int y = (i<lenb) ? b.charAt(lenb - 1 - i)-'0' : 0;
-            res = (x + y + carry)%2 + res;
-            carry = (x + y + carry)/2;
-            i++;
-        }
-
-        return res;
-    }
-
-
-    public String addBinary2(String a, String b) {
-
         StringBuffer sb = new StringBuffer();
         int idxa = a.length() - 1;
         int idxb = b.length() - 1;
         int car = 0;
 
-        while(idxa>=0||idxb>=0){
-            if(idxa<0){
-                int temp = b.charAt(idxb)-'0';
-                sb.append((temp+car)%2);
-                car = (temp + car)/2;
+        while(idxa>=0||idxb>=0||car>0){
+            int sum = car;
+            if(idxa>=0){
+                sum += a.charAt(idxa)-'0';
+                idxa --;
+            }
+            if(idxb>=0){
+                sum += b.charAt(idxb)-'0';
                 idxb--;
-                continue;
             }
-            if(idxb<0){
-                int temp = a.charAt(idxa)-'0';
-                sb.append((temp+car)%2);
-                car = (temp + car)/2;
-                idxa--;
-                continue;
-            }
-            int tempa = a.charAt(idxa)-'0';
-            int tempb = b.charAt(idxb)-'0';
-            sb.append((tempa+tempb+car)%2);
-            car = (tempa+tempb+car)/2;
-            idxa--;
-            idxb--;
-            continue;
+            sb.append((sum)%2);
+            car = (sum)/2;
         }
-        if(car==1){ sb.append(1); }
         return sb.reverse().toString();
     }
 }

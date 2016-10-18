@@ -1,5 +1,7 @@
 package VFacebookTemp;
 
+import java.util.Arrays;
+
 /**
  * Given an array with n objects colored red, white or blue, sort them so that objects of the same color are adjacent,
  * with the colors in the order red, white and blue.
@@ -35,6 +37,22 @@ public class sortColor {
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
+    }
+
+
+
+    //there are k types
+    //O(n + k)
+    public void sortKColors(int[] nums, int k) {
+        int[] count = new int[k];
+        for (int i = 0; i < nums.length; i++) {
+            count[nums[i]]++;
+        }
+        int idx = 0;
+        for (int i = 0; i < k; i++) {
+            Arrays.fill(nums, idx, idx + count[i], i);
+            idx += count[i];
+        }
     }
 
 }
